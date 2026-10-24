@@ -1,0 +1,38 @@
+{
+  "n_parsed": 823,
+  "n_mismatch": 25,
+  "manual_audit_single_rater": true,
+  "parser_errors_idx": [
+    5,
+    6,
+    8,
+    10,
+    18,
+    22,
+    23
+  ],
+  "gold_contradicts_correct_parse_idx": [
+    1,
+    2,
+    3,
+    4,
+    7,
+    9,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    19,
+    20,
+    21,
+    24,
+    25
+  ],
+  "rate_parser_errors": 0.00850546780072904,
+  "rate_gold_inconsistent": 0.02187120291616039,
+  "note": "Indexy zodpovedajú poradiu nezhôd v train+dev (train.json potom dev.json). Klasifikácia je subjektívna a nie je potvrdená druhým hodnotiteľom.",
+  "mismatch_types_of_gold_inconsistent": "Darapti(AAI-3) x5 označené neplatné; Barbara/Celarent/Camestres/Baroco/Festino označené neplatné; niektoré neplatné formy označené platné"
+}

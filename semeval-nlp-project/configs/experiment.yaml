@@ -1,0 +1,31 @@
+# Konfigurácia Etapy 1 (baseline). Všetky náhodné procesy sú riadené `seed`.
+seed: 42
+paths:
+  train: data/raw/train_data/subtask 1/train_data.json
+  test_st1: data/raw/test_data/subtask 1/test_data_subtask_1.json
+  test_st2: data/raw/test_data/subtask 2/test_data_subtask_2.json
+  processed: data/processed
+  outputs: outputs
+split:
+  dev_fraction: 0.2          # 768 train / 192 dev, stratifikované podľa (validity, plausibility)
+  remove_test_overlap: true  # odstráni z train/dev texty, ktoré sa (po normalizácii) nachádzajú v teste
+bootstrap:
+  n_resamples: 5000
+  alpha: 0.05
+tfidf_lr:
+  # Mriežka sa vyhodnocuje 5-násobnou stratifikovanou CV na TRAIN časti (pooled out-of-fold predikcie).
+  # Dev a test sa pri výbere nepoužívajú. (Run 1 vyberal podľa dev CS - zmena odôvodnená v správe.)
+  selection: {method: cv, folds: 5, criterion: combined_score}
+  grid:
+    analyzer: [word, char_wb]
+    ngram_range: [[1, 1], [1, 2], [2, 4]]
+    C: [0.1, 1.0, 10.0, 100.0]
+  max_iter: 2000
+
+neurosymbolic:
+  # Baseline N1: deterministický regex parser -> abstrakcia termínov (X, Y, Z) -> zero-shot LLM.
+  llm_model_id: meta-llama/Meta-Llama-3-8B-Instruct   # presný checkpoint doplniť po overení licencie/prístupu
+  representation: abstract        # original | abstract | canonical
+  fallback_unparsed: original     # nerozparsované príklady idú na LLM v pôvodnom znení
+  prompt_version: v1
+  decoding: {do_sample: false, max_new_tokens: 8}     # greedy -> deterministický výstup (až na numeriku GPU)

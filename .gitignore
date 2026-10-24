@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtuálne prostredia
+.venv/
+venv/
+env/
+ENV/
+
+# Testy / nástroje
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Modely a cache (nepatria do repozitára)
+*.pt
+*.bin
+*.safetensors
+*.ckpt
+models/
+checkpoints/
+.cache/
+hf_cache/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Lokálne tajomstvá
+.env
+.env.*
+!.env.example
