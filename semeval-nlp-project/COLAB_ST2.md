@@ -59,6 +59,17 @@ Dev množiny ST2 (`data/processed/st2/`) sú v repe, nič sa negeneruje.
 
 Checkpointy na stiahnutie netreba; Samov `.gitignore` ich v `outputs/neural/**/checkpoint/` aj tak vynecháva.
 
+## Skrátená verzia (keď je málo času)
+Najprv N1 iba v reprezentácii `abstract` (rádovo desiatky minút na T4), potom B2 s jedným seedom:
+```python
+!python -m src.st2_llm --output {OUT}/st2_llama --representations abstract
+!python -m src.st2_llm --output {OUT}/st2_llama --representations abstract --split test
+!python -m src.st2_encoder --output {OUT}/st2_b2 --seeds 0
+!python -m src.st2_encoder --output {OUT}/st2_b2 --seeds 0 --mode test
+```
+Test hlavného modelu S2 už bol vyhodnotený (25. 10. 2026, `outputs/st2_test_run_log.json`), preto sa B2 a N1 na teste
+vyhodnotia samostatne a voľbu zálohy S2 nemenia (zdôvodnenie v `reports/st2_sprava.md`, kap. 6).
+
 ## 4. Stiahnuť späť a vyhodnotiť lokálne
 ```python
 !cd {OUT} && zip -qr /content/st2_vysledky.zip st2_b2 st2_llama -x "*/checkpoint/*"

@@ -26,8 +26,12 @@ st2:
   # < tie_tolerance bodu, vyhrá kandidát skôr v zozname (jednoduchší). N1-original nie je kandidát (ablácia).
   # Doplnené 2026-10-25 (pred dev výsledkami B2/N1): kandidát, ktorého záloha má aspoň jednu abstenciu (nejednoznačná
   # odpoveď LLM ostáva null ako v ST1), nemá oficiálne metriky, a preto sa vylúči z poradia.
+  # Zmena 2026-10-25 (termín odovzdania, PRED akýmkoľvek pohľadom na test ST2): B2 a N1 sa do termínu nestihli
+  # spustiť v Colabe (B2 ~15x dlhší než v ST1), preto sa voľba zálohy uzatvára iba nad kandidátmi bez GPU.
+  # Pôvodný zoznam: [invalid, valid, B1, B2, N1-abstract]. B2/N1 sa na teste vyhodnotia neskôr samostatne
+  # a voľbu zálohy pre hlavný model S2 už nemenia. Zdôvodnené v reports/st2_sprava.md.
   fallback_selection:
-    candidates: [invalid, valid, B1, B2, N1-abstract]
+    candidates: [invalid, valid, B1]
     tie_tolerance: 0.5
   # N1 pre ST2 (src/st2_llm.py, Colab): model sa načítava importovaným run_llama.LlamaRunner (ako N1 v ST1:
   # NF4 4-bit + double quant, compute dtype bf16/fp16 podľa GPU) s rovnakou revíziou ako N1 v ST1

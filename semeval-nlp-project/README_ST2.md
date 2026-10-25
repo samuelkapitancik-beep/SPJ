@@ -40,6 +40,7 @@ python -m src.run_st2              # ST2 na 9 dev množinách, ~1 min na CPU
   -> `outputs/st2_dev_results.json` (priemer a sd cez seedy, rozpad podľa vetiev a buniek, porovnanie remíz).
 * `python -m src.run_st2 --split test --final` - **jednorazové** vyhodnotenie konfigurácie `st2.symbolic` na teste ST2;
   spustí sa iba ak je voľba zálohy uzavretá na dev (pravidlo `st2.fallback_selection`), zapíše
-  `outputs/st2_test_run_log.json` a opakovaný beh odmietne. (Zatiaľ NESPUSTENÉ.)
+  `outputs/st2_test_run_log.json` a opakovaný beh odmietne. **Spustené 25. 10. 2026** (S2 + baseliny; B2/N1 neskôr samostatne) – výsledky a
+  zdôvodnenie v `reports/st2_sprava.md`, príloha AI v `reports/priloha_AI_ST2.md`.
 * Výhrada: pravidlá parsera boli ladené na ST1 train+dev, takže S2 je na týchto dev množinách optimistická;
   všetkých 9 množín zdieľa tých istých 192 základných príkladov, sd cez seedy preto podhodnocuje neistotu.

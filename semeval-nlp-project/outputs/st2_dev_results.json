@@ -83,9 +83,7 @@
         "candidates": [
           "invalid",
           "valid",
-          "B1",
-          "B2",
-          "N1-abstract"
+          "B1"
         ],
         "tie_tolerance": 0.5
       },
@@ -112,12 +110,12 @@
     }
   },
   "environment": {
-    "python": "3.13.17",
+    "python": "3.11.15",
     "platform": "Linux-6.18.44-fc-v153-x86_64-with-glibc2.39",
-    "numpy": "2.5.3",
-    "pandas": "3.0.5",
-    "scipy": "1.18.1",
-    "scikit-learn": "1.9.1"
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.8.0"
   },
   "b1_best_params": {
     "analyzer": "char_wb",
@@ -819,10 +817,7 @@
       ]
     ],
     "selected": "B1",
-    "missing": [
-      "B2",
-      "N1-abstract"
-    ],
+    "missing": [],
     "excluded": [],
     "matches_config": true
   },

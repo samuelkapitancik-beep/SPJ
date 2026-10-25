@@ -1,0 +1,13 @@
+{
+  "evaluated_at": "2026-10-25T19:27:08",
+  "config_sha256_12": "72ba6908b520",
+  "models": [
+    "B0a majority+overlap",
+    "B0b plaus==valid+overlap (diag)",
+    "B0c majority+random",
+    "B1 tfidf+overlap",
+    "S2 tie=struct inv=any_parsed fb=invalid",
+    "S2 tie=struct inv=any_parsed fb=B1",
+    "official_file_check_main"
+  ]
+}
