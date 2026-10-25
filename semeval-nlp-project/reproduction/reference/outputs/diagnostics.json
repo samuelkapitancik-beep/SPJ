@@ -1,0 +1,142 @@
+{
+  "part_ablation": [
+    {
+      "input": "full",
+      "analyzer": "word",
+      "dev_accuracy": 67.1875,
+      "dev_tce": 7.690602836879439
+    },
+    {
+      "input": "full",
+      "analyzer": "char_wb",
+      "dev_accuracy": 66.14583333333334,
+      "dev_tce": 10.882092198581564
+    },
+    {
+      "input": "premises_only",
+      "analyzer": "word",
+      "dev_accuracy": 64.58333333333334,
+      "dev_tce": 6.671099290780138
+    },
+    {
+      "input": "premises_only",
+      "analyzer": "char_wb",
+      "dev_accuracy": 64.58333333333334,
+      "dev_tce": 7.0315892314372554
+    },
+    {
+      "input": "conclusion_only",
+      "analyzer": "word",
+      "dev_accuracy": 71.875,
+      "dev_tce": 2.8061224489795933
+    },
+    {
+      "input": "conclusion_only",
+      "analyzer": "char_wb",
+      "dev_accuracy": 72.39583333333334,
+      "dev_tce": 7.668439716312051
+    }
+  ],
+  "top_features": {
+    "towards_invalid": [
+      [
+        "circle",
+        -4.23
+      ],
+      [
+        "all",
+        -4.22
+      ],
+      [
+        "cats",
+        -3.94
+      ],
+      [
+        "educator",
+        -3.6
+      ],
+      [
+        "human",
+        -3.58
+      ],
+      [
+        "chair",
+        -3.35
+      ],
+      [
+        "painters",
+        -3.34
+      ],
+      [
+        "it",
+        -3.18
+      ],
+      [
+        "dog",
+        -3.11
+      ],
+      [
+        "moons",
+        -3.07
+      ],
+      [
+        "cars",
+        -3.04
+      ],
+      [
+        "living",
+        -2.96
+      ]
+    ],
+    "towards_valid": [
+      [
+        "not",
+        6.21
+      ],
+      [
+        "in",
+        5.09
+      ],
+      [
+        "logically",
+        4.3
+      ],
+      [
+        "aquatic",
+        4.07
+      ],
+      [
+        "flower",
+        4.05
+      ],
+      [
+        "feline",
+        3.51
+      ],
+      [
+        "blooded",
+        3.28
+      ],
+      [
+        "necessitates",
+        3.27
+      ],
+      [
+        "few",
+        3.22
+      ],
+      [
+        "of",
+        3.06
+      ],
+      [
+        "certain",
+        3.05
+      ],
+      [
+        "none",
+        3.04
+      ]
+    ]
+  }
+}

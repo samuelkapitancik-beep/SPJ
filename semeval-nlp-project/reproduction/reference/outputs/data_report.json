@@ -1,0 +1,33 @@
+{
+  "n_train_raw": 960,
+  "n_test_st1": 191,
+  "n_test_st2": 190,
+  "duplicates_train": 0,
+  "duplicates_test_st1": 0,
+  "overlap_train_test_st1": [
+    "every person who is a prime minister is a politician there are a number of people who are celebrities who are also politicians it follows from this that there are some celebrities who are prime ministers",
+    "every single four sided shape is a rectangle all four sided shapes are squares it follows from this that some squares are not rectangles"
+  ],
+  "overlap_train_test_st2": [],
+  "n_train_after_filter": 958,
+  "n_train": 766,
+  "n_dev": 192,
+  "cells_train": {
+    "invalid_implaus": 196,
+    "invalid_plaus": 186,
+    "valid_implaus": 192,
+    "valid_plaus": 192
+  },
+  "cells_dev": {
+    "invalid_implaus": 49,
+    "invalid_plaus": 47,
+    "valid_implaus": 48,
+    "valid_plaus": 48
+  },
+  "cells_test_st1": {
+    "invalid_implaus": 48,
+    "invalid_plaus": 47,
+    "valid_implaus": 48,
+    "valid_plaus": 48
+  }
+}

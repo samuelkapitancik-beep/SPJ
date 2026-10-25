@@ -1,0 +1,3 @@
+train pokrytie 0.867 ACC(parsed) 0.9699 | S0 ACC/TCE/CS [90.73, 7.26, 29.16]
+dev pokrytie 0.828 ACC(parsed) 0.9686 | S0 ACC/TCE/CS [90.1, 9.4, 26.97]
+test_st1 pokrytie 0.838 ACC(parsed) 0.9875 | S0 ACC/TCE/CS [90.58, 10.42, 26.37]

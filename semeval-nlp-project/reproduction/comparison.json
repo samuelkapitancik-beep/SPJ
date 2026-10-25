@@ -1,0 +1,15 @@
+{
+  "baseline_results.json": true,
+  "data_report.json": true,
+  "diagnostics.json": true,
+  "neurosymbolic_items_dev.jsonl": true,
+  "neurosymbolic_items_test_st1.jsonl": true,
+  "neurosymbolic_items_train.jsonl": true,
+  "parser_eval.json": true,
+  "predictions\\st1_B0a_majority.json": true,
+  "predictions\\st1_B0b_plaus_heuristic.json": true,
+  "predictions\\st1_B1_tfidf_lr.json": true,
+  "predictions\\st2_B1_randompremises.json": true,
+  "processed/dev.json": true,
+  "processed/train.json": true
+}

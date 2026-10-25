@@ -1,0 +1,67 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 0.6811836712042906,
+    "accuracy": 59.375,
+    "tce": 37.521258503401356,
+    "tce_intra": 2.1710811984368164,
+    "tce_inter": 72.8714358083659,
+    "combined_score": 12.765494722609374,
+    "acc_plausible_valid": 22.916666666666664,
+    "acc_implausible_valid": 22.916666666666664,
+    "acc_plausible_invalid": 93.61702127659575,
+    "acc_implausible_invalid": 97.95918367346938
+  },
+  {
+    "epoch": 2,
+    "train_loss": 0.49811381965330936,
+    "accuracy": 75.0,
+    "tce": 6.930272108843532,
+    "tce_intra": 5.644811115935738,
+    "tce_inter": 8.215733101751326,
+    "combined_score": 24.42449897304921,
+    "acc_plausible_valid": 79.16666666666666,
+    "acc_implausible_valid": 79.16666666666666,
+    "acc_plausible_invalid": 76.59574468085107,
+    "acc_implausible_invalid": 65.3061224489796
+  },
+  {
+    "epoch": 3,
+    "train_loss": 0.30229359812664924,
+    "accuracy": 81.77083333333334,
+    "tce": 9.286347517730498,
+    "tce_intra": 2.908796497322335,
+    "tce_inter": 15.66389853813866,
+    "combined_score": 24.549778707669287,
+    "acc_plausible_valid": 75.0,
+    "acc_implausible_valid": 72.91666666666666,
+    "acc_plausible_invalid": 91.48936170212765,
+    "acc_implausible_invalid": 87.75510204081633
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.18015738357801972,
+    "accuracy": 82.29166666666666,
+    "tce": 5.994897959183675,
+    "tce_intra": 5.817592994644663,
+    "tce_inter": 6.172202923722686,
+    "combined_score": 27.941123516202705,
+    "acc_plausible_valid": 87.5,
+    "acc_implausible_valid": 83.33333333333334,
+    "acc_plausible_invalid": 82.97872340425532,
+    "acc_implausible_invalid": 75.51020408163265
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.10361444031425773,
+    "accuracy": 81.77083333333334,
+    "tce": 12.15986394557823,
+    "tce_intra": 6.7298994065711355,
+    "tce_inter": 17.589828484585325,
+    "combined_score": 22.859074924510242,
+    "acc_plausible_valid": 89.58333333333334,
+    "acc_implausible_valid": 91.66666666666666,
+    "acc_plausible_invalid": 78.72340425531915,
+    "acc_implausible_invalid": 67.3469387755102
+  }
+]

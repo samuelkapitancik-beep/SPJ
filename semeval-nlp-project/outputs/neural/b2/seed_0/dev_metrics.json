@@ -1,0 +1,80 @@
+{
+  "experiment": "B2",
+  "split": "dev",
+  "model": "microsoft/deberta-v3-base",
+  "revision": "8ccc9b6f36199bec6961081d44eb72fb3f7353f3",
+  "gradient_checkpointing": {
+    "use_reentrant": false
+  },
+  "seed": 0,
+  "selection": "dev_accuracy_earliest_tie",
+  "best_epoch": 4,
+  "max_length": 256,
+  "arguments": {
+    "mode": "train",
+    "model": "microsoft/deberta-v3-base",
+    "revision": "8ccc9b6f36199bec6961081d44eb72fb3f7353f3",
+    "seeds": [
+      0
+    ],
+    "epochs": 5,
+    "lr": 2e-05,
+    "batch": 4,
+    "accumulation": 4,
+    "max_length": 256,
+    "output": "/content/drive/MyDrive/SPJ_SemEval2026/neural_v1/b2",
+    "allow_cpu": false
+  },
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+    "packages": {
+      "torch": "2.11.0+cu130",
+      "transformers": "4.57.1",
+      "accelerate": "1.10.1",
+      "bitsandbytes": "0.48.1",
+      "sentencepiece": "0.2.1",
+      "numpy": "2.1.3"
+    }
+  },
+  "train_sha256": "f399023251bfc950fdb1693b0cb3aacf971b5433db9963c7aabde73e324a510b",
+  "dev_sha256": "8d75307950007cbbe320b3b904fb1878dc085ff4e7f420a85a70a98f2e1031d7",
+  "data_sha256": "8d75307950007cbbe320b3b904fb1878dc085ff4e7f420a85a70a98f2e1031d7",
+  "n": 192,
+  "unparsable_answers": 0,
+  "answer_coverage": 1.0,
+  "official_scores": {
+    "accuracy": 82.29166666666666,
+    "tce": 5.994897959183675,
+    "tce_intra": 5.817592994644663,
+    "tce_inter": 6.172202923722686,
+    "combined_score": 27.941123516202705,
+    "acc_plausible_valid": 87.5,
+    "acc_implausible_valid": 83.33333333333334,
+    "acc_plausible_invalid": 82.97872340425532,
+    "acc_implausible_invalid": 75.51020408163265
+  },
+  "ci95": {
+    "accuracy": [
+      76.5625,
+      87.5
+    ],
+    "tce": [
+      2.4999173280423284,
+      14.81128476043729
+    ],
+    "combined_score": [
+      21.262180530116858,
+      36.85744183486814
+    ]
+  },
+  "confusion": {
+    "TP": 82,
+    "FP": 20,
+    "TN": 76,
+    "FN": 14,
+    "precision": 0.803921568627451,
+    "recall": 0.8541666666666666,
+    "f1_valid": 0.8282828282828283
+  }
+}

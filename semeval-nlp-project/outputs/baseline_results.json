@@ -49,11 +49,21 @@
         ]
       },
       "max_iter": 2000
+    },
+    "neurosymbolic": {
+      "llm_model_id": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "representation": "abstract",
+      "fallback_unparsed": "original",
+      "prompt_version": "v1",
+      "decoding": {
+        "do_sample": false,
+        "max_new_tokens": 8
+      }
     }
   },
   "environment": {
-    "python": "3.13.16",
-    "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39",
+    "python": "3.12.7",
+    "platform": "Windows-11-10.0.26200-SP0",
     "numpy": "2.5.3",
     "pandas": "3.0.5",
     "scipy": "1.18.1",

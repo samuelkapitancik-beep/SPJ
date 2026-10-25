@@ -1,0 +1,412 @@
+[
+  {
+    "gold": {
+      "id": "48a96158-28f0-4e60-8802-3a7a9767cacb",
+      "syllogism": "There are some mammals that are animals. All dogs are mammals. Thus, all dogs are animals.",
+      "validity": false,
+      "plausibility": true
+    },
+    "B1": {
+      "id": "48a96158-28f0-4e60-8802-3a7a9767cacb",
+      "validity": false
+    },
+    "B2": {
+      "0": {
+        "id": "48a96158-28f0-4e60-8802-3a7a9767cacb",
+        "validity": false
+      },
+      "1": {
+        "id": "48a96158-28f0-4e60-8802-3a7a9767cacb",
+        "validity": false
+      },
+      "2": {
+        "id": "48a96158-28f0-4e60-8802-3a7a9767cacb",
+        "validity": false
+      },
+      "3": {
+        "id": "48a96158-28f0-4e60-8802-3a7a9767cacb",
+        "validity": false
+      },
+      "4": {
+        "id": "48a96158-28f0-4e60-8802-3a7a9767cacb",
+        "validity": false
+      }
+    },
+    "Llama": {
+      "original": {
+        "id": "48a96158-28f0-4e60-8802-3a7a9767cacb",
+        "validity": true,
+        "raw": "VALID",
+        "unparsable_answer": false,
+        "parsed": true,
+        "used_representation": "original"
+      },
+      "abstract": {
+        "id": "48a96158-28f0-4e60-8802-3a7a9767cacb",
+        "validity": true,
+        "raw": "VALID",
+        "unparsable_answer": false,
+        "parsed": true,
+        "used_representation": "abstract"
+      },
+      "canonical": {
+        "id": "48a96158-28f0-4e60-8802-3a7a9767cacb",
+        "validity": true,
+        "raw": "VALID",
+        "unparsable_answer": false,
+        "parsed": true,
+        "used_representation": "canonical"
+      }
+    },
+    "reconstructed_input": {
+      "id": "48a96158-28f0-4e60-8802-3a7a9767cacb",
+      "original": "There are some mammals that are animals. All dogs are mammals. Thus, all dogs are animals.",
+      "parsed": true,
+      "parse_failure": null,
+      "abstract": "There are some Z that are Y. All X are Z. Thus, all X are Y.",
+      "canonical": "Premise 1: Some Z are Y.\nPremise 2: All X are Z.\nConclusion: All X are Y.",
+      "statements": [
+        [
+          "I",
+          "Z",
+          "Y"
+        ],
+        [
+          "A",
+          "X",
+          "Z"
+        ],
+        [
+          "A",
+          "X",
+          "Y"
+        ]
+      ],
+      "symbolic_valid": false
+    }
+  },
+  {
+    "gold": {
+      "id": "267064a3-db1a-4c57-a571-ce5c0c8f141e",
+      "syllogism": "A few reptiles are mammals. There are no mammals that are fish. As a result, some fish are reptiles.",
+      "validity": false,
+      "plausibility": false
+    },
+    "B1": {
+      "id": "267064a3-db1a-4c57-a571-ce5c0c8f141e",
+      "validity": false
+    },
+    "B2": {
+      "0": {
+        "id": "267064a3-db1a-4c57-a571-ce5c0c8f141e",
+        "validity": false
+      },
+      "1": {
+        "id": "267064a3-db1a-4c57-a571-ce5c0c8f141e",
+        "validity": false
+      },
+      "2": {
+        "id": "267064a3-db1a-4c57-a571-ce5c0c8f141e",
+        "validity": false
+      },
+      "3": {
+        "id": "267064a3-db1a-4c57-a571-ce5c0c8f141e",
+        "validity": false
+      },
+      "4": {
+        "id": "267064a3-db1a-4c57-a571-ce5c0c8f141e",
+        "validity": false
+      }
+    },
+    "Llama": {
+      "original": {
+        "id": "267064a3-db1a-4c57-a571-ce5c0c8f141e",
+        "validity": false,
+        "raw": "INVALID",
+        "unparsable_answer": false,
+        "parsed": true,
+        "used_representation": "original"
+      },
+      "abstract": {
+        "id": "267064a3-db1a-4c57-a571-ce5c0c8f141e",
+        "validity": true,
+        "raw": "VALID",
+        "unparsable_answer": false,
+        "parsed": true,
+        "used_representation": "abstract"
+      },
+      "canonical": {
+        "id": "267064a3-db1a-4c57-a571-ce5c0c8f141e",
+        "validity": false,
+        "raw": "INVALID",
+        "unparsable_answer": false,
+        "parsed": true,
+        "used_representation": "canonical"
+      }
+    },
+    "reconstructed_input": {
+      "id": "267064a3-db1a-4c57-a571-ce5c0c8f141e",
+      "original": "A few reptiles are mammals. There are no mammals that are fish. As a result, some fish are reptiles.",
+      "parsed": true,
+      "parse_failure": null,
+      "abstract": "A few Y are Z. There are no Z that are X. As a result, some X are Y.",
+      "canonical": "Premise 1: Some Y are Z.\nPremise 2: No Z are X.\nConclusion: Some X are Y.",
+      "statements": [
+        [
+          "I",
+          "Y",
+          "Z"
+        ],
+        [
+          "E",
+          "Z",
+          "X"
+        ],
+        [
+          "I",
+          "X",
+          "Y"
+        ]
+      ],
+      "symbolic_valid": false
+    }
+  },
+  {
+    "gold": {
+      "id": "d63b3aff-77cd-4c65-9417-be63ce1c733b",
+      "syllogism": "Every piece of fruit is edible. Any apple is a fruit. This means that some apples are not vegetables.",
+      "validity": false,
+      "plausibility": true
+    },
+    "B1": {
+      "id": "d63b3aff-77cd-4c65-9417-be63ce1c733b",
+      "validity": true
+    },
+    "B2": {
+      "0": {
+        "id": "d63b3aff-77cd-4c65-9417-be63ce1c733b",
+        "validity": true
+      },
+      "1": {
+        "id": "d63b3aff-77cd-4c65-9417-be63ce1c733b",
+        "validity": true
+      },
+      "2": {
+        "id": "d63b3aff-77cd-4c65-9417-be63ce1c733b",
+        "validity": true
+      },
+      "3": {
+        "id": "d63b3aff-77cd-4c65-9417-be63ce1c733b",
+        "validity": true
+      },
+      "4": {
+        "id": "d63b3aff-77cd-4c65-9417-be63ce1c733b",
+        "validity": true
+      }
+    },
+    "Llama": {
+      "original": {
+        "id": "d63b3aff-77cd-4c65-9417-be63ce1c733b",
+        "validity": true,
+        "raw": "VALID",
+        "unparsable_answer": false,
+        "parsed": false,
+        "used_representation": "original"
+      },
+      "abstract": {
+        "id": "d63b3aff-77cd-4c65-9417-be63ce1c733b",
+        "validity": true,
+        "raw": "VALID",
+        "unparsable_answer": false,
+        "parsed": false,
+        "used_representation": "original"
+      },
+      "canonical": {
+        "id": "d63b3aff-77cd-4c65-9417-be63ce1c733b",
+        "validity": true,
+        "raw": "VALID",
+        "unparsable_answer": false,
+        "parsed": false,
+        "used_representation": "original"
+      }
+    },
+    "reconstructed_input": {
+      "id": "d63b3aff-77cd-4c65-9417-be63ce1c733b",
+      "original": "Every piece of fruit is edible. Any apple is a fruit. This means that some apples are not vegetables.",
+      "parsed": false,
+      "parse_failure": "conclusion-terms-not-in-premises"
+    }
+  },
+  {
+    "gold": {
+      "id": "ed73250f-c7ad-4976-8c45-d9bf6ece787b",
+      "syllogism": "It is true that some roses are yellow. A rose is a type of flower. Thus, some flowers are yellow.",
+      "validity": true,
+      "plausibility": true
+    },
+    "B1": {
+      "id": "ed73250f-c7ad-4976-8c45-d9bf6ece787b",
+      "validity": false
+    },
+    "B2": {
+      "0": {
+        "id": "ed73250f-c7ad-4976-8c45-d9bf6ece787b",
+        "validity": true
+      },
+      "1": {
+        "id": "ed73250f-c7ad-4976-8c45-d9bf6ece787b",
+        "validity": true
+      },
+      "2": {
+        "id": "ed73250f-c7ad-4976-8c45-d9bf6ece787b",
+        "validity": true
+      },
+      "3": {
+        "id": "ed73250f-c7ad-4976-8c45-d9bf6ece787b",
+        "validity": true
+      },
+      "4": {
+        "id": "ed73250f-c7ad-4976-8c45-d9bf6ece787b",
+        "validity": true
+      }
+    },
+    "Llama": {
+      "original": {
+        "id": "ed73250f-c7ad-4976-8c45-d9bf6ece787b",
+        "validity": true,
+        "raw": "VALID",
+        "unparsable_answer": false,
+        "parsed": true,
+        "used_representation": "original"
+      },
+      "abstract": {
+        "id": "ed73250f-c7ad-4976-8c45-d9bf6ece787b",
+        "validity": true,
+        "raw": "VALID",
+        "unparsable_answer": false,
+        "parsed": true,
+        "used_representation": "abstract"
+      },
+      "canonical": {
+        "id": "ed73250f-c7ad-4976-8c45-d9bf6ece787b",
+        "validity": true,
+        "raw": "VALID",
+        "unparsable_answer": false,
+        "parsed": true,
+        "used_representation": "canonical"
+      }
+    },
+    "reconstructed_input": {
+      "id": "ed73250f-c7ad-4976-8c45-d9bf6ece787b",
+      "original": "It is true that some roses are yellow. A rose is a type of flower. Thus, some flowers are yellow.",
+      "parsed": true,
+      "parse_failure": null,
+      "abstract": "It is true that some Z are Y. A Z is a type of X. Thus, some X are Y.",
+      "canonical": "Premise 1: Some Z are Y.\nPremise 2: All Z are X.\nConclusion: Some X are Y.",
+      "statements": [
+        [
+          "I",
+          "Z",
+          "Y"
+        ],
+        [
+          "A",
+          "Z",
+          "X"
+        ],
+        [
+          "I",
+          "X",
+          "Y"
+        ]
+      ],
+      "symbolic_valid": true
+    }
+  },
+  {
+    "gold": {
+      "id": "f682283e-eb75-47d9-9e48-ca918d7c3737",
+      "syllogism": "No animal is a tree. All trees are plants without exception. A number of plants are animals.",
+      "validity": false,
+      "plausibility": false
+    },
+    "B1": {
+      "id": "f682283e-eb75-47d9-9e48-ca918d7c3737",
+      "validity": true
+    },
+    "B2": {
+      "0": {
+        "id": "f682283e-eb75-47d9-9e48-ca918d7c3737",
+        "validity": false
+      },
+      "1": {
+        "id": "f682283e-eb75-47d9-9e48-ca918d7c3737",
+        "validity": false
+      },
+      "2": {
+        "id": "f682283e-eb75-47d9-9e48-ca918d7c3737",
+        "validity": false
+      },
+      "3": {
+        "id": "f682283e-eb75-47d9-9e48-ca918d7c3737",
+        "validity": false
+      },
+      "4": {
+        "id": "f682283e-eb75-47d9-9e48-ca918d7c3737",
+        "validity": false
+      }
+    },
+    "Llama": {
+      "original": {
+        "id": "f682283e-eb75-47d9-9e48-ca918d7c3737",
+        "validity": false,
+        "raw": "INVALID",
+        "unparsable_answer": false,
+        "parsed": true,
+        "used_representation": "original"
+      },
+      "abstract": {
+        "id": "f682283e-eb75-47d9-9e48-ca918d7c3737",
+        "validity": true,
+        "raw": "VALID",
+        "unparsable_answer": false,
+        "parsed": true,
+        "used_representation": "abstract"
+      },
+      "canonical": {
+        "id": "f682283e-eb75-47d9-9e48-ca918d7c3737",
+        "validity": false,
+        "raw": "INVALID",
+        "unparsable_answer": false,
+        "parsed": true,
+        "used_representation": "canonical"
+      }
+    },
+    "reconstructed_input": {
+      "id": "f682283e-eb75-47d9-9e48-ca918d7c3737",
+      "original": "No animal is a tree. All trees are plants without exception. A number of plants are animals.",
+      "parsed": true,
+      "parse_failure": null,
+      "abstract": "No Y is a Z. All Z are X exception. A number of X are Y.",
+      "canonical": "Premise 1: No Y are Z.\nPremise 2: All Z are X.\nConclusion: Some X are Y.",
+      "statements": [
+        [
+          "E",
+          "Y",
+          "Z"
+        ],
+        [
+          "A",
+          "Z",
+          "X"
+        ],
+        [
+          "I",
+          "X",
+          "Y"
+        ]
+      ],
+      "symbolic_valid": false
+    }
+  }
+]

@@ -1,0 +1,80 @@
+{
+  "experiment": "B2",
+  "split": "dev",
+  "model": "microsoft/deberta-v3-base",
+  "revision": "8ccc9b6f36199bec6961081d44eb72fb3f7353f3",
+  "gradient_checkpointing": {
+    "use_reentrant": false
+  },
+  "seed": 3,
+  "selection": "dev_accuracy_earliest_tie",
+  "best_epoch": 4,
+  "max_length": 256,
+  "arguments": {
+    "mode": "train",
+    "model": "microsoft/deberta-v3-base",
+    "revision": "8ccc9b6f36199bec6961081d44eb72fb3f7353f3",
+    "seeds": [
+      3
+    ],
+    "epochs": 5,
+    "lr": 2e-05,
+    "batch": 4,
+    "accumulation": 4,
+    "max_length": 256,
+    "output": "/content/drive/MyDrive/SPJ_SemEval2026/neural_v1/b2",
+    "allow_cpu": false
+  },
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+    "packages": {
+      "torch": "2.11.0+cu130",
+      "transformers": "4.57.1",
+      "accelerate": "1.10.1",
+      "bitsandbytes": "0.48.1",
+      "sentencepiece": "0.2.1",
+      "numpy": "2.1.3"
+    }
+  },
+  "train_sha256": "f399023251bfc950fdb1693b0cb3aacf971b5433db9963c7aabde73e324a510b",
+  "dev_sha256": "8d75307950007cbbe320b3b904fb1878dc085ff4e7f420a85a70a98f2e1031d7",
+  "data_sha256": "8d75307950007cbbe320b3b904fb1878dc085ff4e7f420a85a70a98f2e1031d7",
+  "n": 192,
+  "unparsable_answers": 0,
+  "answer_coverage": 1.0,
+  "official_scores": {
+    "accuracy": 77.60416666666666,
+    "tce": 6.972789115646265,
+    "tce_intra": 4.6456614560717995,
+    "tce_inter": 9.29991677522073,
+    "combined_score": 25.228640839164896,
+    "acc_plausible_valid": 81.25,
+    "acc_implausible_valid": 83.33333333333334,
+    "acc_plausible_invalid": 76.59574468085107,
+    "acc_implausible_invalid": 69.38775510204081
+  },
+  "ci95": {
+    "accuracy": [
+      71.35416666666666,
+      83.33333333333334
+    ],
+    "tce": [
+      3.1656218967229353,
+      17.30869911933985
+    ],
+    "combined_score": [
+      19.212111973010096,
+      32.5448568431369
+    ]
+  },
+  "confusion": {
+    "TP": 79,
+    "FP": 26,
+    "TN": 70,
+    "FN": 17,
+    "precision": 0.7523809523809524,
+    "recall": 0.8229166666666666,
+    "f1_valid": 0.7860696517412935
+  }
+}

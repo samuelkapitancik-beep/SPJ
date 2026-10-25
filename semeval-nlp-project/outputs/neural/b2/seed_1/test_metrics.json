@@ -1,0 +1,99 @@
+{
+  "experiment": "B2",
+  "split": "test_st1",
+  "seed": 1,
+  "model": "microsoft/deberta-v3-base",
+  "revision": "8ccc9b6f36199bec6961081d44eb72fb3f7353f3",
+  "training": {
+    "experiment": "B2",
+    "split": "dev",
+    "model": "microsoft/deberta-v3-base",
+    "revision": "8ccc9b6f36199bec6961081d44eb72fb3f7353f3",
+    "gradient_checkpointing": {
+      "use_reentrant": false
+    },
+    "seed": 1,
+    "selection": "dev_accuracy_earliest_tie",
+    "best_epoch": 3,
+    "max_length": 256,
+    "arguments": {
+      "mode": "train",
+      "model": "microsoft/deberta-v3-base",
+      "revision": "8ccc9b6f36199bec6961081d44eb72fb3f7353f3",
+      "seeds": [
+        1
+      ],
+      "epochs": 5,
+      "lr": 2e-05,
+      "batch": 4,
+      "accumulation": 4,
+      "max_length": 256,
+      "output": "/content/drive/MyDrive/SPJ_SemEval2026/neural_v1/b2",
+      "allow_cpu": false
+    },
+    "environment": {
+      "python": "3.13.16",
+      "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+      "packages": {
+        "torch": "2.11.0+cu130",
+        "transformers": "4.57.1",
+        "accelerate": "1.10.1",
+        "bitsandbytes": "0.48.1",
+        "sentencepiece": "0.2.1",
+        "numpy": "2.1.3"
+      }
+    },
+    "train_sha256": "f399023251bfc950fdb1693b0cb3aacf971b5433db9963c7aabde73e324a510b",
+    "dev_sha256": "8d75307950007cbbe320b3b904fb1878dc085ff4e7f420a85a70a98f2e1031d7"
+  },
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+    "packages": {
+      "torch": "2.11.0+cu130",
+      "transformers": "4.57.1",
+      "accelerate": "1.10.1",
+      "bitsandbytes": "0.48.1",
+      "sentencepiece": "0.2.1",
+      "numpy": "2.1.3"
+    }
+  },
+  "data_sha256": "0f1c420121f45088710437e5e4b990d67f8d0093768e32381f1b2108830b6ab1",
+  "n": 191,
+  "unparsable_answers": 0,
+  "answer_coverage": 1.0,
+  "official_scores": {
+    "accuracy": 72.77486910994764,
+    "tce": 3.125,
+    "tce_intra": 3.9007092198581574,
+    "tce_inter": 2.3492907801418426,
+    "combined_score": 30.1087634819224,
+    "acc_plausible_valid": 75.0,
+    "acc_implausible_valid": 68.75,
+    "acc_plausible_invalid": 74.46808510638297,
+    "acc_implausible_invalid": 72.91666666666666
+  },
+  "ci95": {
+    "accuracy": [
+      66.49214659685863,
+      79.05759162303664
+    ],
+    "tce": [
+      2.364732864732863,
+      15.782564275710287
+    ],
+    "combined_score": [
+      18.510055066974097,
+      33.39790279802283
+    ]
+  },
+  "confusion": {
+    "TP": 69,
+    "FP": 25,
+    "TN": 70,
+    "FN": 27,
+    "precision": 0.7340425531914894,
+    "recall": 0.71875,
+    "f1_valid": 0.7263157894736842
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "repository": "https://raw.githubusercontent.com/neuro-symbolic-ai/semeval_2026_task_11/6f71ea846770f9418c7d2845ec6c25e59f885bd7/",
+  "commit": "6f71ea846770f9418c7d2845ec6c25e59f885bd7",
+  "files": {
+    "data/raw/train_data/subtask 1/train_data.json": "d6d6fad0bf58dbd6ba824fa4db91fe8726493d0587a6ed474479141df2a90719",
+    "data/raw/test_data/subtask 1/test_data_subtask_1.json": "9ba98e2ebb473b34c627db355f715c890f54e63c3e825b04a85a8879a316ad56",
+    "data/raw/test_data/subtask 2/test_data_subtask_2.json": "1b78f7f250692ede8a6e619533ed65e11682c929cf3449c4ee11b9879962f68d",
+    "src/vendor/official_eval_task1_3/evaluation_script.py": "084056c371657516bcb4847a2917b437217cbffe0bb5c635811a3987ae5d2c04",
+    "src/vendor/official_eval_task2_4/evaluation_script.py": "d1ab69e55409bb63e7bace9237a8125e0ee76f5ed9d31b9ed621b0e547219e29"
+  }
+}

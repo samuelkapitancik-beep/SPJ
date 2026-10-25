@@ -1,0 +1,272 @@
+{
+  "rows": [
+    {
+      "model": "B0a majority",
+      "split": "dev",
+      "accuracy": 50.0,
+      "tce": 50.0,
+      "combined_score": 10.138233531257297
+    },
+    {
+      "model": "B0b plausibility==validity (diagnostic)",
+      "split": "dev",
+      "accuracy": 50.520833333333336,
+      "tce": 100.0,
+      "combined_score": 8.99728388407831
+    },
+    {
+      "model": "B1 TF-IDF+LR (train only)",
+      "split": "dev",
+      "accuracy": 67.70833333333334,
+      "tce": 9.09456867853525,
+      "combined_score": 20.443352638498993
+    },
+    {
+      "model": "B0a_majority",
+      "split": "test_st1",
+      "accuracy": 50.26178010471204,
+      "tce": 50.0,
+      "combined_score": 10.19131328796545
+    },
+    {
+      "model": "B0b_plaus_heuristic",
+      "split": "test_st1",
+      "accuracy": 50.26178010471204,
+      "tce": 100.0,
+      "combined_score": 8.951148947553916
+    },
+    {
+      "model": "B1_tfidf_lr",
+      "split": "test_st1",
+      "accuracy": 65.44502617801047,
+      "tce": 10.904255319148938,
+      "combined_score": 18.822831505489642
+    },
+    {
+      "model": "S0",
+      "split": "dev",
+      "accuracy": 90.10416666666666,
+      "tce": 9.396258503401363,
+      "combined_score": 26.96562121564725
+    },
+    {
+      "model": "S0",
+      "split": "test_st1",
+      "accuracy": 90.57591623036649,
+      "tce": 10.416666666666671,
+      "combined_score": 26.367964402440908
+    },
+    {
+      "model": "microsoft/deberta-v3-base",
+      "split": "dev",
+      "seed": 0,
+      "representation": null,
+      "source": "/content/drive/MyDrive/SPJ_SemEval2026/neural_v1/b2/seed_0/dev_metrics.json",
+      "unparsable_answers": 0,
+      "accuracy": 82.29166666666666,
+      "tce": 5.994897959183675,
+      "combined_score": 27.941123516202705
+    },
+    {
+      "model": "microsoft/deberta-v3-base",
+      "split": "test_st1",
+      "seed": 0,
+      "representation": null,
+      "source": "/content/drive/MyDrive/SPJ_SemEval2026/neural_v1/b2/seed_0/test_metrics.json",
+      "unparsable_answers": 0,
+      "accuracy": 79.58115183246073,
+      "tce": 7.5797872340425485,
+      "combined_score": 25.26859766994735
+    },
+    {
+      "model": "microsoft/deberta-v3-base",
+      "split": "dev",
+      "seed": 1,
+      "representation": null,
+      "source": "/content/drive/MyDrive/SPJ_SemEval2026/neural_v1/b2/seed_1/dev_metrics.json",
+      "unparsable_answers": 0,
+      "accuracy": 78.64583333333334,
+      "tce": 5.053191489361701,
+      "combined_score": 28.08192396515497
+    },
+    {
+      "model": "microsoft/deberta-v3-base",
+      "split": "test_st1",
+      "seed": 1,
+      "representation": null,
+      "source": "/content/drive/MyDrive/SPJ_SemEval2026/neural_v1/b2/seed_1/test_metrics.json",
+      "unparsable_answers": 0,
+      "accuracy": 72.77486910994764,
+      "tce": 3.125,
+      "combined_score": 30.1087634819224
+    },
+    {
+      "model": "microsoft/deberta-v3-base",
+      "split": "dev",
+      "seed": 2,
+      "representation": null,
+      "source": "/content/drive/MyDrive/SPJ_SemEval2026/neural_v1/b2/seed_2/dev_metrics.json",
+      "unparsable_answers": 0,
+      "accuracy": 77.08333333333334,
+      "tce": 4.910714285714285,
+      "combined_score": 27.760104498399322
+    },
+    {
+      "model": "microsoft/deberta-v3-base",
+      "split": "test_st1",
+      "seed": 2,
+      "representation": null,
+      "source": "/content/drive/MyDrive/SPJ_SemEval2026/neural_v1/b2/seed_2/test_metrics.json",
+      "unparsable_answers": 0,
+      "accuracy": 74.3455497382199,
+      "tce": 11.45833333333334,
+      "combined_score": 21.106565474494623
+    },
+    {
+      "model": "microsoft/deberta-v3-base",
+      "split": "dev",
+      "seed": 3,
+      "representation": null,
+      "source": "/content/drive/MyDrive/SPJ_SemEval2026/neural_v1/b2/seed_3/dev_metrics.json",
+      "unparsable_answers": 0,
+      "accuracy": 77.60416666666666,
+      "tce": 6.972789115646265,
+      "combined_score": 25.228640839164896
+    },
+    {
+      "model": "microsoft/deberta-v3-base",
+      "split": "test_st1",
+      "seed": 3,
+      "representation": null,
+      "source": "/content/drive/MyDrive/SPJ_SemEval2026/neural_v1/b2/seed_3/test_metrics.json",
+      "unparsable_answers": 0,
+      "accuracy": 76.43979057591623,
+      "tce": 8.665780141843967,
+      "combined_score": 23.38615361187868
+    },
+    {
+      "model": "microsoft/deberta-v3-base",
+      "split": "dev",
+      "seed": 4,
+      "representation": null,
+      "source": "/content/drive/MyDrive/SPJ_SemEval2026/neural_v1/b2/seed_4/dev_metrics.json",
+      "unparsable_answers": 0,
+      "accuracy": 79.16666666666666,
+      "tce": 9.056122448979593,
+      "combined_score": 23.930568237203513
+    },
+    {
+      "model": "microsoft/deberta-v3-base",
+      "split": "test_st1",
+      "seed": 4,
+      "representation": null,
+      "source": "/content/drive/MyDrive/SPJ_SemEval2026/neural_v1/b2/seed_4/test_metrics.json",
+      "unparsable_answers": 0,
+      "accuracy": 79.58115183246073,
+      "tce": 16.001773049645394,
+      "combined_score": 20.760385492774265
+    },
+    {
+      "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "split": "dev",
+      "seed": 42,
+      "representation": "abstract",
+      "source": "/content/drive/MyDrive/SPJ_SemEval2026/neural_v1/llama/dev/abstract/metrics.json",
+      "unparsable_answers": 0,
+      "accuracy": 53.125,
+      "tce": 47.87234042553192,
+      "combined_score": 10.865760031609591
+    },
+    {
+      "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "split": "dev",
+      "seed": 42,
+      "representation": "canonical",
+      "source": "/content/drive/MyDrive/SPJ_SemEval2026/neural_v1/llama/dev/canonical/metrics.json",
+      "unparsable_answers": 0,
+      "accuracy": 66.66666666666666,
+      "tce": 38.320035460992905,
+      "combined_score": 14.270218264461983
+    },
+    {
+      "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "split": "dev",
+      "seed": 42,
+      "representation": "original",
+      "source": "/content/drive/MyDrive/SPJ_SemEval2026/neural_v1/llama/dev/original/metrics.json",
+      "unparsable_answers": 0,
+      "accuracy": 64.0625,
+      "tce": 44.680851063829785,
+      "combined_score": 13.286346393784076
+    },
+    {
+      "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "split": "test_st1",
+      "seed": 42,
+      "representation": "abstract",
+      "source": "/content/drive/MyDrive/SPJ_SemEval2026/neural_v1/llama/test_st1/abstract/metrics.json",
+      "unparsable_answers": 0,
+      "accuracy": 52.35602094240838,
+      "tce": 48.958333333333336,
+      "combined_score": 10.660558467846148
+    },
+    {
+      "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "split": "test_st1",
+      "seed": 42,
+      "representation": "canonical",
+      "source": "/content/drive/MyDrive/SPJ_SemEval2026/neural_v1/llama/test_st1/canonical/metrics.json",
+      "unparsable_answers": 0,
+      "accuracy": 79.58115183246073,
+      "tce": 27.65957446808511,
+      "combined_score": 18.271467996998382
+    },
+    {
+      "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "split": "test_st1",
+      "seed": 42,
+      "representation": "original",
+      "source": "/content/drive/MyDrive/SPJ_SemEval2026/neural_v1/llama/test_st1/original/metrics.json",
+      "unparsable_answers": 0,
+      "accuracy": 67.01570680628272,
+      "tce": 43.61702127659574,
+      "combined_score": 13.967089328146919
+    }
+  ],
+  "across_seeds": [
+    {
+      "model": "microsoft/deberta-v3-base",
+      "split": "dev",
+      "n_seeds": 5,
+      "accuracy": {
+        "mean": 78.95833333333333,
+        "sample_sd": 2.0372507516258227
+      },
+      "tce": {
+        "mean": 6.397543059777104,
+        "sample_sd": 1.7013976915154716
+      },
+      "combined_score": {
+        "mean": 26.58847221122508,
+        "sample_sd": 1.8938308270593895
+      }
+    },
+    {
+      "model": "microsoft/deberta-v3-base",
+      "split": "test_st1",
+      "n_seeds": 5,
+      "accuracy": {
+        "mean": 76.54450261780104,
+        "sample_sd": 3.0618202130289927
+      },
+      "tce": {
+        "mean": 9.36613475177305,
+        "sample_sd": 4.770804113260498
+      },
+      "combined_score": {
+        "mean": 24.126093146203463,
+        "sample_sd": 3.810862986768569
+      }
+    }
+  ]
+}

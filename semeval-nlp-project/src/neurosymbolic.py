@@ -52,18 +52,7 @@ def extract_label(output: str) -> bool | None:
 
 def run_llm(items: list[dict], model_id: str, representation: str, fallback: str = "original",
             max_new_tokens: int = 8) -> list[dict]:   # pragma: no cover - vyžaduje GPU
-    """Zero-shot inferencia (greedy). NESPUSTENÉ v tomto prostredí."""
-    import torch
-    from transformers import AutoTokenizer, AutoModelForCausalLM
-    tok = AutoTokenizer.from_pretrained(model_id)
-    model = AutoModelForCausalLM.from_pretrained(model_id, torch_dtype=torch.bfloat16, device_map="auto")
-    preds = []
-    for it in items:
-        ids = tok.apply_chat_template(make_messages(it, representation, fallback), add_generation_prompt=True,
-                                      return_tensors="pt").to(model.device)
-        with torch.no_grad():
-            out = model.generate(ids, max_new_tokens=max_new_tokens, do_sample=False)
-        text = tok.decode(out[0, ids.shape[1]:], skip_special_tokens=True)
-        lab = extract_label(text)
-        preds.append({"id": it["id"], "validity": bool(lab) if lab is not None else False, "raw": text, "unparsable_answer": lab is None})
-    return preds
+    """Compatibility wrapper; use python -m src.run_llama for saved experiments."""
+    from .run_llama import LlamaRunner
+    runner = LlamaRunner(model_id, 'main', quantize=False)
+    return [runner.predict(it, representation, max_new_tokens, fallback) for it in items]

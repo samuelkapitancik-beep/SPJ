@@ -1,0 +1,29 @@
+{
+  "experiment": "N1",
+  "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+  "revision": "8afb486c1db24fe5011ec46dfbe5b5dccdb575c2",
+  "split": "test_st1",
+  "representation": "canonical",
+  "prompt_sha256_12": "565095f7e74f",
+  "prompt": {
+    "system": "You are a careful logician. You judge only the FORM of an argument, never whether its statements are true in the real world. The symbols X, Y and Z (or any words) stand for arbitrary sets. Every set is non-empty (existential import). 'All A are B' means every member of A is in B; 'No A are B' means A and B share no member; 'Some A are B' means at least one member lies in both; 'Some A are not B' means at least one member of A is outside B. An argument is VALID if the conclusion must be true whenever both premises are true; otherwise it is INVALID.",
+    "user": "{argument}\n\nIs this argument formally valid? Answer with exactly one word: VALID or INVALID."
+  },
+  "items_sha256": "9183248924cd75b6e2d3e394a753ddb1b94160fc504a534b06cdbee8c84a6e6b",
+  "quantization": "nf4-double",
+  "max_new_tokens": 8,
+  "do_sample": false,
+  "seed": 42,
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+    "packages": {
+      "torch": "2.11.0+cu130",
+      "transformers": "4.57.1",
+      "accelerate": "1.10.1",
+      "bitsandbytes": "0.48.1",
+      "sentencepiece": "0.2.1",
+      "numpy": "2.1.3"
+    }
+  }
+}

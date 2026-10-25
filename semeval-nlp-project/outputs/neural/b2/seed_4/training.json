@@ -1,0 +1,42 @@
+{
+  "experiment": "B2",
+  "split": "dev",
+  "model": "microsoft/deberta-v3-base",
+  "revision": "8ccc9b6f36199bec6961081d44eb72fb3f7353f3",
+  "gradient_checkpointing": {
+    "use_reentrant": false
+  },
+  "seed": 4,
+  "selection": "dev_accuracy_earliest_tie",
+  "best_epoch": 5,
+  "max_length": 256,
+  "arguments": {
+    "mode": "train",
+    "model": "microsoft/deberta-v3-base",
+    "revision": "8ccc9b6f36199bec6961081d44eb72fb3f7353f3",
+    "seeds": [
+      4
+    ],
+    "epochs": 5,
+    "lr": 2e-05,
+    "batch": 4,
+    "accumulation": 4,
+    "max_length": 256,
+    "output": "/content/drive/MyDrive/SPJ_SemEval2026/neural_v1/b2",
+    "allow_cpu": false
+  },
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+    "packages": {
+      "torch": "2.11.0+cu130",
+      "transformers": "4.57.1",
+      "accelerate": "1.10.1",
+      "bitsandbytes": "0.48.1",
+      "sentencepiece": "0.2.1",
+      "numpy": "2.1.3"
+    }
+  },
+  "train_sha256": "f399023251bfc950fdb1693b0cb3aacf971b5433db9963c7aabde73e324a510b",
+  "dev_sha256": "8d75307950007cbbe320b3b904fb1878dc085ff4e7f420a85a70a98f2e1031d7"
+}

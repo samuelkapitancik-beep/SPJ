@@ -1,4 +1,4 @@
-"""Hlavný beh Etapy 1: split -> B0 -> B1 (grid na dev) -> refit train+dev -> test (jednorazovo).
+"""Hlavný beh Etapy 1: split -> B0 -> B1 (CV na train) -> refit train+dev -> test.
 
 Použitie: python -m src.train --config configs/experiment.yaml
 """

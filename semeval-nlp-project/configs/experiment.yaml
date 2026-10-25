@@ -7,7 +7,7 @@ paths:
   processed: data/processed
   outputs: outputs
 split:
-  dev_fraction: 0.2          # 768 train / 192 dev, stratifikované podľa (validity, plausibility)
+  dev_fraction: 0.2          # po odstránení prekryvu: 766 train / 192 dev
   remove_test_overlap: true  # odstráni z train/dev texty, ktoré sa (po normalizácii) nachádzajú v teste
 bootstrap:
   n_resamples: 5000

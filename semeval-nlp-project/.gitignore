@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+.pytest_cache/
+data/upstream/
+outputs/neural/**/checkpoint/
+colab/semeval_colab/

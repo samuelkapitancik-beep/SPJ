@@ -1,0 +1,6644 @@
+{
+  "archive": "C:\\Users\\samoo\\Downloads\\semeval_neural_results.zip",
+  "archive_sha256": "35e36847cc5e61f4e4640238f183770c5cfca4af611bf4365868f72d4710f743",
+  "checks": [
+    {
+      "check": "b2/seed_0 train hash",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 dev hash",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 five epochs",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 earliest best dev epoch",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.n.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.n",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.unparsable_answers.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.unparsable_answers",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.answer_coverage.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.answer_coverage",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.official_scores.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.official_scores.accuracy.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.official_scores.accuracy",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.official_scores.tce.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.official_scores.tce",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.official_scores.tce_intra.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.official_scores.tce_intra",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.official_scores.tce_inter.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.official_scores.tce_inter",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.official_scores.combined_score.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.official_scores.combined_score",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.official_scores.acc_plausible_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.official_scores.acc_plausible_valid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.official_scores.acc_implausible_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.official_scores.acc_implausible_valid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.official_scores.acc_plausible_invalid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.official_scores.acc_plausible_invalid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.official_scores.acc_implausible_invalid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.official_scores.acc_implausible_invalid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.ci95.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.ci95.accuracy.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.ci95.accuracy.length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.ci95.accuracy.0",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.ci95.accuracy.1",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.ci95.tce.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.ci95.tce.length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.ci95.tce.0",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.ci95.tce.1",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.ci95.combined_score.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.ci95.combined_score.length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.ci95.combined_score.0",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.ci95.combined_score.1",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.confusion.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.confusion.TP.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.confusion.TP",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.confusion.FP.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.confusion.FP",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.confusion.TN.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.confusion.TN",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.confusion.FN.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.confusion.FN",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.confusion.precision.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.confusion.precision",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.confusion.recall.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.confusion.recall",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.confusion.f1_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev metrics.confusion.f1_valid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/dev data hash",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 selected dev ACC",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.n.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.n",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.unparsable_answers.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.unparsable_answers",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.answer_coverage.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.answer_coverage",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.official_scores.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.official_scores.accuracy.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.official_scores.accuracy",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.official_scores.tce.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.official_scores.tce",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.official_scores.tce_intra.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.official_scores.tce_intra",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.official_scores.tce_inter.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.official_scores.tce_inter",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.official_scores.combined_score.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.official_scores.combined_score",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.official_scores.acc_plausible_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.official_scores.acc_plausible_valid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.official_scores.acc_implausible_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.official_scores.acc_implausible_valid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.official_scores.acc_plausible_invalid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.official_scores.acc_plausible_invalid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.official_scores.acc_implausible_invalid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.official_scores.acc_implausible_invalid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.ci95.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.ci95.accuracy.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.ci95.accuracy.length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.ci95.accuracy.0",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.ci95.accuracy.1",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.ci95.tce.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.ci95.tce.length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.ci95.tce.0",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.ci95.tce.1",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.ci95.combined_score.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.ci95.combined_score.length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.ci95.combined_score.0",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.ci95.combined_score.1",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.confusion.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.confusion.TP.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.confusion.TP",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.confusion.FP.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.confusion.FP",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.confusion.TN.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.confusion.TN",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.confusion.FN.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.confusion.FN",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.confusion.precision.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.confusion.precision",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.confusion.recall.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.confusion.recall",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.confusion.f1_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 metrics.confusion.f1_valid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0/test_st1 data hash",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.experiment.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.experiment",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.split.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.split",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.model.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.model",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.revision.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.revision",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.gradient_checkpointing.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.gradient_checkpointing.use_reentrant.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.gradient_checkpointing.use_reentrant",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.seed.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.seed",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.selection.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.selection",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.best_epoch.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.best_epoch",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.max_length.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.max_length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.arguments.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.arguments.mode.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.arguments.mode",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.arguments.model.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.arguments.model",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.arguments.revision.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.arguments.revision",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.arguments.seeds.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.arguments.seeds.length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.arguments.seeds.0",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.arguments.epochs.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.arguments.epochs",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.arguments.lr.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.arguments.lr",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.arguments.batch.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.arguments.batch",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.arguments.accumulation.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.arguments.accumulation",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.arguments.max_length.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.arguments.max_length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.arguments.output.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.arguments.output",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.arguments.allow_cpu.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.arguments.allow_cpu",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.environment.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.environment.python.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.environment.python",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.environment.platform.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.environment.platform",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.environment.packages.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.environment.packages.torch.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.environment.packages.torch",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.environment.packages.transformers.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.environment.packages.transformers",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.environment.packages.accelerate.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.environment.packages.accelerate",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.environment.packages.bitsandbytes.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.environment.packages.bitsandbytes",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.environment.packages.sentencepiece.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.environment.packages.sentencepiece",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.environment.packages.numpy.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.environment.packages.numpy",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.train_sha256.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.train_sha256",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.dev_sha256.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_0 test training metadata.dev_sha256",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 train hash",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 dev hash",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 five epochs",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 earliest best dev epoch",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.n.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.n",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.unparsable_answers.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.unparsable_answers",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.answer_coverage.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.answer_coverage",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.official_scores.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.official_scores.accuracy.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.official_scores.accuracy",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.official_scores.tce.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.official_scores.tce",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.official_scores.tce_intra.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.official_scores.tce_intra",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.official_scores.tce_inter.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.official_scores.tce_inter",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.official_scores.combined_score.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.official_scores.combined_score",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.official_scores.acc_plausible_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.official_scores.acc_plausible_valid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.official_scores.acc_implausible_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.official_scores.acc_implausible_valid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.official_scores.acc_plausible_invalid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.official_scores.acc_plausible_invalid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.official_scores.acc_implausible_invalid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.official_scores.acc_implausible_invalid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.ci95.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.ci95.accuracy.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.ci95.accuracy.length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.ci95.accuracy.0",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.ci95.accuracy.1",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.ci95.tce.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.ci95.tce.length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.ci95.tce.0",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.ci95.tce.1",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.ci95.combined_score.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.ci95.combined_score.length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.ci95.combined_score.0",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.ci95.combined_score.1",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.confusion.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.confusion.TP.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.confusion.TP",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.confusion.FP.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.confusion.FP",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.confusion.TN.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.confusion.TN",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.confusion.FN.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.confusion.FN",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.confusion.precision.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.confusion.precision",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.confusion.recall.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.confusion.recall",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.confusion.f1_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev metrics.confusion.f1_valid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/dev data hash",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 selected dev ACC",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.n.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.n",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.unparsable_answers.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.unparsable_answers",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.answer_coverage.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.answer_coverage",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.official_scores.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.official_scores.accuracy.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.official_scores.accuracy",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.official_scores.tce.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.official_scores.tce",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.official_scores.tce_intra.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.official_scores.tce_intra",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.official_scores.tce_inter.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.official_scores.tce_inter",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.official_scores.combined_score.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.official_scores.combined_score",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.official_scores.acc_plausible_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.official_scores.acc_plausible_valid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.official_scores.acc_implausible_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.official_scores.acc_implausible_valid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.official_scores.acc_plausible_invalid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.official_scores.acc_plausible_invalid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.official_scores.acc_implausible_invalid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.official_scores.acc_implausible_invalid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.ci95.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.ci95.accuracy.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.ci95.accuracy.length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.ci95.accuracy.0",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.ci95.accuracy.1",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.ci95.tce.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.ci95.tce.length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.ci95.tce.0",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.ci95.tce.1",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.ci95.combined_score.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.ci95.combined_score.length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.ci95.combined_score.0",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.ci95.combined_score.1",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.confusion.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.confusion.TP.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.confusion.TP",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.confusion.FP.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.confusion.FP",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.confusion.TN.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.confusion.TN",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.confusion.FN.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.confusion.FN",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.confusion.precision.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.confusion.precision",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.confusion.recall.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.confusion.recall",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.confusion.f1_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 metrics.confusion.f1_valid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1/test_st1 data hash",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.experiment.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.experiment",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.split.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.split",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.model.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.model",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.revision.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.revision",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.gradient_checkpointing.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.gradient_checkpointing.use_reentrant.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.gradient_checkpointing.use_reentrant",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.seed.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.seed",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.selection.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.selection",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.best_epoch.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.best_epoch",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.max_length.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.max_length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.arguments.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.arguments.mode.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.arguments.mode",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.arguments.model.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.arguments.model",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.arguments.revision.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.arguments.revision",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.arguments.seeds.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.arguments.seeds.length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.arguments.seeds.0",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.arguments.epochs.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.arguments.epochs",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.arguments.lr.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.arguments.lr",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.arguments.batch.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.arguments.batch",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.arguments.accumulation.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.arguments.accumulation",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.arguments.max_length.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.arguments.max_length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.arguments.output.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.arguments.output",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.arguments.allow_cpu.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.arguments.allow_cpu",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.environment.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.environment.python.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.environment.python",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.environment.platform.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.environment.platform",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.environment.packages.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.environment.packages.torch.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.environment.packages.torch",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.environment.packages.transformers.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.environment.packages.transformers",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.environment.packages.accelerate.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.environment.packages.accelerate",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.environment.packages.bitsandbytes.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.environment.packages.bitsandbytes",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.environment.packages.sentencepiece.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.environment.packages.sentencepiece",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.environment.packages.numpy.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.environment.packages.numpy",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.train_sha256.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.train_sha256",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.dev_sha256.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_1 test training metadata.dev_sha256",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 train hash",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 dev hash",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 five epochs",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 earliest best dev epoch",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.n.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.n",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.unparsable_answers.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.unparsable_answers",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.answer_coverage.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.answer_coverage",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.official_scores.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.official_scores.accuracy.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.official_scores.accuracy",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.official_scores.tce.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.official_scores.tce",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.official_scores.tce_intra.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.official_scores.tce_intra",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.official_scores.tce_inter.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.official_scores.tce_inter",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.official_scores.combined_score.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.official_scores.combined_score",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.official_scores.acc_plausible_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.official_scores.acc_plausible_valid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.official_scores.acc_implausible_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.official_scores.acc_implausible_valid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.official_scores.acc_plausible_invalid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.official_scores.acc_plausible_invalid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.official_scores.acc_implausible_invalid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.official_scores.acc_implausible_invalid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.ci95.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.ci95.accuracy.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.ci95.accuracy.length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.ci95.accuracy.0",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.ci95.accuracy.1",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.ci95.tce.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.ci95.tce.length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.ci95.tce.0",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.ci95.tce.1",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.ci95.combined_score.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.ci95.combined_score.length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.ci95.combined_score.0",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.ci95.combined_score.1",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.confusion.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.confusion.TP.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.confusion.TP",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.confusion.FP.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.confusion.FP",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.confusion.TN.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.confusion.TN",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.confusion.FN.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.confusion.FN",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.confusion.precision.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.confusion.precision",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.confusion.recall.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.confusion.recall",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.confusion.f1_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev metrics.confusion.f1_valid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/dev data hash",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 selected dev ACC",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.n.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.n",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.unparsable_answers.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.unparsable_answers",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.answer_coverage.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.answer_coverage",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.official_scores.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.official_scores.accuracy.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.official_scores.accuracy",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.official_scores.tce.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.official_scores.tce",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.official_scores.tce_intra.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.official_scores.tce_intra",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.official_scores.tce_inter.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.official_scores.tce_inter",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.official_scores.combined_score.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.official_scores.combined_score",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.official_scores.acc_plausible_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.official_scores.acc_plausible_valid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.official_scores.acc_implausible_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.official_scores.acc_implausible_valid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.official_scores.acc_plausible_invalid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.official_scores.acc_plausible_invalid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.official_scores.acc_implausible_invalid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.official_scores.acc_implausible_invalid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.ci95.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.ci95.accuracy.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.ci95.accuracy.length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.ci95.accuracy.0",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.ci95.accuracy.1",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.ci95.tce.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.ci95.tce.length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.ci95.tce.0",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.ci95.tce.1",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.ci95.combined_score.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.ci95.combined_score.length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.ci95.combined_score.0",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.ci95.combined_score.1",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.confusion.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.confusion.TP.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.confusion.TP",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.confusion.FP.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.confusion.FP",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.confusion.TN.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.confusion.TN",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.confusion.FN.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.confusion.FN",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.confusion.precision.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.confusion.precision",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.confusion.recall.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.confusion.recall",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.confusion.f1_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 metrics.confusion.f1_valid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2/test_st1 data hash",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.experiment.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.experiment",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.split.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.split",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.model.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.model",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.revision.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.revision",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.gradient_checkpointing.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.gradient_checkpointing.use_reentrant.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.gradient_checkpointing.use_reentrant",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.seed.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.seed",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.selection.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.selection",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.best_epoch.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.best_epoch",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.max_length.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.max_length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.arguments.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.arguments.mode.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.arguments.mode",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.arguments.model.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.arguments.model",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.arguments.revision.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.arguments.revision",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.arguments.seeds.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.arguments.seeds.length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.arguments.seeds.0",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.arguments.epochs.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.arguments.epochs",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.arguments.lr.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.arguments.lr",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.arguments.batch.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.arguments.batch",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.arguments.accumulation.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.arguments.accumulation",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.arguments.max_length.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.arguments.max_length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.arguments.output.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.arguments.output",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.arguments.allow_cpu.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.arguments.allow_cpu",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.environment.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.environment.python.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.environment.python",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.environment.platform.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.environment.platform",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.environment.packages.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.environment.packages.torch.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.environment.packages.torch",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.environment.packages.transformers.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.environment.packages.transformers",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.environment.packages.accelerate.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.environment.packages.accelerate",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.environment.packages.bitsandbytes.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.environment.packages.bitsandbytes",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.environment.packages.sentencepiece.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.environment.packages.sentencepiece",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.environment.packages.numpy.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.environment.packages.numpy",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.train_sha256.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.train_sha256",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.dev_sha256.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_2 test training metadata.dev_sha256",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 train hash",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 dev hash",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 five epochs",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 earliest best dev epoch",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.n.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.n",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.unparsable_answers.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.unparsable_answers",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.answer_coverage.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.answer_coverage",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.official_scores.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.official_scores.accuracy.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.official_scores.accuracy",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.official_scores.tce.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.official_scores.tce",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.official_scores.tce_intra.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.official_scores.tce_intra",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.official_scores.tce_inter.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.official_scores.tce_inter",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.official_scores.combined_score.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.official_scores.combined_score",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.official_scores.acc_plausible_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.official_scores.acc_plausible_valid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.official_scores.acc_implausible_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.official_scores.acc_implausible_valid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.official_scores.acc_plausible_invalid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.official_scores.acc_plausible_invalid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.official_scores.acc_implausible_invalid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.official_scores.acc_implausible_invalid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.ci95.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.ci95.accuracy.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.ci95.accuracy.length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.ci95.accuracy.0",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.ci95.accuracy.1",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.ci95.tce.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.ci95.tce.length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.ci95.tce.0",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.ci95.tce.1",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.ci95.combined_score.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.ci95.combined_score.length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.ci95.combined_score.0",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.ci95.combined_score.1",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.confusion.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.confusion.TP.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.confusion.TP",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.confusion.FP.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.confusion.FP",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.confusion.TN.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.confusion.TN",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.confusion.FN.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.confusion.FN",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.confusion.precision.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.confusion.precision",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.confusion.recall.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.confusion.recall",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.confusion.f1_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev metrics.confusion.f1_valid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/dev data hash",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 selected dev ACC",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.n.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.n",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.unparsable_answers.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.unparsable_answers",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.answer_coverage.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.answer_coverage",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.official_scores.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.official_scores.accuracy.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.official_scores.accuracy",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.official_scores.tce.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.official_scores.tce",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.official_scores.tce_intra.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.official_scores.tce_intra",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.official_scores.tce_inter.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.official_scores.tce_inter",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.official_scores.combined_score.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.official_scores.combined_score",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.official_scores.acc_plausible_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.official_scores.acc_plausible_valid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.official_scores.acc_implausible_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.official_scores.acc_implausible_valid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.official_scores.acc_plausible_invalid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.official_scores.acc_plausible_invalid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.official_scores.acc_implausible_invalid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.official_scores.acc_implausible_invalid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.ci95.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.ci95.accuracy.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.ci95.accuracy.length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.ci95.accuracy.0",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.ci95.accuracy.1",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.ci95.tce.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.ci95.tce.length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.ci95.tce.0",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.ci95.tce.1",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.ci95.combined_score.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.ci95.combined_score.length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.ci95.combined_score.0",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.ci95.combined_score.1",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.confusion.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.confusion.TP.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.confusion.TP",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.confusion.FP.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.confusion.FP",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.confusion.TN.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.confusion.TN",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.confusion.FN.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.confusion.FN",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.confusion.precision.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.confusion.precision",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.confusion.recall.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.confusion.recall",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.confusion.f1_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 metrics.confusion.f1_valid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3/test_st1 data hash",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.experiment.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.experiment",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.split.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.split",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.model.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.model",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.revision.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.revision",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.gradient_checkpointing.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.gradient_checkpointing.use_reentrant.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.gradient_checkpointing.use_reentrant",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.seed.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.seed",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.selection.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.selection",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.best_epoch.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.best_epoch",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.max_length.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.max_length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.arguments.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.arguments.mode.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.arguments.mode",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.arguments.model.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.arguments.model",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.arguments.revision.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.arguments.revision",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.arguments.seeds.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.arguments.seeds.length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.arguments.seeds.0",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.arguments.epochs.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.arguments.epochs",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.arguments.lr.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.arguments.lr",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.arguments.batch.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.arguments.batch",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.arguments.accumulation.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.arguments.accumulation",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.arguments.max_length.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.arguments.max_length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.arguments.output.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.arguments.output",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.arguments.allow_cpu.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.arguments.allow_cpu",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.environment.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.environment.python.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.environment.python",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.environment.platform.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.environment.platform",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.environment.packages.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.environment.packages.torch.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.environment.packages.torch",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.environment.packages.transformers.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.environment.packages.transformers",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.environment.packages.accelerate.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.environment.packages.accelerate",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.environment.packages.bitsandbytes.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.environment.packages.bitsandbytes",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.environment.packages.sentencepiece.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.environment.packages.sentencepiece",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.environment.packages.numpy.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.environment.packages.numpy",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.train_sha256.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.train_sha256",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.dev_sha256.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_3 test training metadata.dev_sha256",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 train hash",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 dev hash",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 five epochs",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 earliest best dev epoch",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.n.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.n",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.unparsable_answers.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.unparsable_answers",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.answer_coverage.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.answer_coverage",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.official_scores.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.official_scores.accuracy.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.official_scores.accuracy",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.official_scores.tce.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.official_scores.tce",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.official_scores.tce_intra.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.official_scores.tce_intra",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.official_scores.tce_inter.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.official_scores.tce_inter",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.official_scores.combined_score.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.official_scores.combined_score",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.official_scores.acc_plausible_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.official_scores.acc_plausible_valid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.official_scores.acc_implausible_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.official_scores.acc_implausible_valid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.official_scores.acc_plausible_invalid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.official_scores.acc_plausible_invalid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.official_scores.acc_implausible_invalid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.official_scores.acc_implausible_invalid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.ci95.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.ci95.accuracy.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.ci95.accuracy.length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.ci95.accuracy.0",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.ci95.accuracy.1",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.ci95.tce.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.ci95.tce.length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.ci95.tce.0",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.ci95.tce.1",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.ci95.combined_score.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.ci95.combined_score.length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.ci95.combined_score.0",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.ci95.combined_score.1",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.confusion.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.confusion.TP.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.confusion.TP",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.confusion.FP.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.confusion.FP",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.confusion.TN.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.confusion.TN",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.confusion.FN.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.confusion.FN",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.confusion.precision.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.confusion.precision",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.confusion.recall.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.confusion.recall",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.confusion.f1_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev metrics.confusion.f1_valid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/dev data hash",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 selected dev ACC",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.n.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.n",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.unparsable_answers.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.unparsable_answers",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.answer_coverage.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.answer_coverage",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.official_scores.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.official_scores.accuracy.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.official_scores.accuracy",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.official_scores.tce.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.official_scores.tce",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.official_scores.tce_intra.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.official_scores.tce_intra",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.official_scores.tce_inter.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.official_scores.tce_inter",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.official_scores.combined_score.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.official_scores.combined_score",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.official_scores.acc_plausible_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.official_scores.acc_plausible_valid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.official_scores.acc_implausible_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.official_scores.acc_implausible_valid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.official_scores.acc_plausible_invalid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.official_scores.acc_plausible_invalid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.official_scores.acc_implausible_invalid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.official_scores.acc_implausible_invalid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.ci95.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.ci95.accuracy.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.ci95.accuracy.length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.ci95.accuracy.0",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.ci95.accuracy.1",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.ci95.tce.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.ci95.tce.length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.ci95.tce.0",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.ci95.tce.1",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.ci95.combined_score.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.ci95.combined_score.length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.ci95.combined_score.0",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.ci95.combined_score.1",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.confusion.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.confusion.TP.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.confusion.TP",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.confusion.FP.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.confusion.FP",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.confusion.TN.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.confusion.TN",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.confusion.FN.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.confusion.FN",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.confusion.precision.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.confusion.precision",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.confusion.recall.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.confusion.recall",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.confusion.f1_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 metrics.confusion.f1_valid",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4/test_st1 data hash",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.experiment.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.experiment",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.split.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.split",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.model.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.model",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.revision.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.revision",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.gradient_checkpointing.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.gradient_checkpointing.use_reentrant.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.gradient_checkpointing.use_reentrant",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.seed.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.seed",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.selection.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.selection",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.best_epoch.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.best_epoch",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.max_length.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.max_length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.arguments.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.arguments.mode.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.arguments.mode",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.arguments.model.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.arguments.model",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.arguments.revision.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.arguments.revision",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.arguments.seeds.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.arguments.seeds.length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.arguments.seeds.0",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.arguments.epochs.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.arguments.epochs",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.arguments.lr.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.arguments.lr",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.arguments.batch.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.arguments.batch",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.arguments.accumulation.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.arguments.accumulation",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.arguments.max_length.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.arguments.max_length",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.arguments.output.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.arguments.output",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.arguments.allow_cpu.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.arguments.allow_cpu",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.environment.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.environment.python.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.environment.python",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.environment.platform.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.environment.platform",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.environment.packages.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.environment.packages.torch.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.environment.packages.torch",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.environment.packages.transformers.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.environment.packages.transformers",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.environment.packages.accelerate.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.environment.packages.accelerate",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.environment.packages.bitsandbytes.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.environment.packages.bitsandbytes",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.environment.packages.sentencepiece.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.environment.packages.sentencepiece",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.environment.packages.numpy.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.environment.packages.numpy",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.train_sha256.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.train_sha256",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.dev_sha256.exists",
+      "passed": true
+    },
+    {
+      "check": "b2/seed_4 test training metadata.dev_sha256",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original journal equals predictions",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original submission equals predictions",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original labels match raw responses",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original input hash",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original data hash",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original prompt hash",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original fallback representation",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.n.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.n",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.unparsable_answers.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.unparsable_answers",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.answer_coverage.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.answer_coverage",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.official_scores.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.official_scores.accuracy.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.official_scores.accuracy",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.official_scores.tce.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.official_scores.tce",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.official_scores.tce_intra.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.official_scores.tce_intra",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.official_scores.tce_inter.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.official_scores.tce_inter",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.official_scores.combined_score.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.official_scores.combined_score",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.official_scores.acc_plausible_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.official_scores.acc_plausible_valid",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.official_scores.acc_implausible_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.official_scores.acc_implausible_valid",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.official_scores.acc_plausible_invalid.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.official_scores.acc_plausible_invalid",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.official_scores.acc_implausible_invalid.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.official_scores.acc_implausible_invalid",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.ci95.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.ci95.accuracy.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.ci95.accuracy.length",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.ci95.accuracy.0",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.ci95.accuracy.1",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.ci95.tce.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.ci95.tce.length",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.ci95.tce.0",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.ci95.tce.1",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.ci95.combined_score.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.ci95.combined_score.length",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.ci95.combined_score.0",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.ci95.combined_score.1",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.confusion.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.confusion.TP.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.confusion.TP",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.confusion.FP.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.confusion.FP",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.confusion.TN.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.confusion.TN",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.confusion.FN.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.confusion.FN",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.confusion.precision.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.confusion.precision",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.confusion.recall.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.confusion.recall",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.confusion.f1_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original metrics.confusion.f1_valid",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/original parser coverage",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract journal equals predictions",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract submission equals predictions",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract labels match raw responses",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract input hash",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract data hash",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract prompt hash",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract fallback representation",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.n.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.n",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.unparsable_answers.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.unparsable_answers",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.answer_coverage.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.answer_coverage",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.official_scores.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.official_scores.accuracy.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.official_scores.accuracy",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.official_scores.tce.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.official_scores.tce",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.official_scores.tce_intra.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.official_scores.tce_intra",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.official_scores.tce_inter.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.official_scores.tce_inter",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.official_scores.combined_score.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.official_scores.combined_score",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.official_scores.acc_plausible_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.official_scores.acc_plausible_valid",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.official_scores.acc_implausible_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.official_scores.acc_implausible_valid",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.official_scores.acc_plausible_invalid.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.official_scores.acc_plausible_invalid",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.official_scores.acc_implausible_invalid.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.official_scores.acc_implausible_invalid",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.ci95.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.ci95.accuracy.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.ci95.accuracy.length",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.ci95.accuracy.0",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.ci95.accuracy.1",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.ci95.tce.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.ci95.tce.length",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.ci95.tce.0",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.ci95.tce.1",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.ci95.combined_score.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.ci95.combined_score.length",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.ci95.combined_score.0",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.ci95.combined_score.1",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.confusion.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.confusion.TP.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.confusion.TP",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.confusion.FP.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.confusion.FP",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.confusion.TN.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.confusion.TN",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.confusion.FN.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.confusion.FN",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.confusion.precision.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.confusion.precision",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.confusion.recall.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.confusion.recall",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.confusion.f1_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract metrics.confusion.f1_valid",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/abstract parser coverage",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical journal equals predictions",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical submission equals predictions",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical labels match raw responses",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical input hash",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical data hash",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical prompt hash",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical fallback representation",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.n.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.n",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.unparsable_answers.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.unparsable_answers",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.answer_coverage.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.answer_coverage",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.official_scores.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.official_scores.accuracy.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.official_scores.accuracy",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.official_scores.tce.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.official_scores.tce",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.official_scores.tce_intra.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.official_scores.tce_intra",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.official_scores.tce_inter.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.official_scores.tce_inter",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.official_scores.combined_score.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.official_scores.combined_score",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.official_scores.acc_plausible_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.official_scores.acc_plausible_valid",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.official_scores.acc_implausible_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.official_scores.acc_implausible_valid",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.official_scores.acc_plausible_invalid.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.official_scores.acc_plausible_invalid",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.official_scores.acc_implausible_invalid.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.official_scores.acc_implausible_invalid",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.ci95.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.ci95.accuracy.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.ci95.accuracy.length",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.ci95.accuracy.0",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.ci95.accuracy.1",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.ci95.tce.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.ci95.tce.length",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.ci95.tce.0",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.ci95.tce.1",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.ci95.combined_score.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.ci95.combined_score.length",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.ci95.combined_score.0",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.ci95.combined_score.1",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.confusion.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.confusion.TP.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.confusion.TP",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.confusion.FP.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.confusion.FP",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.confusion.TN.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.confusion.TN",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.confusion.FN.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.confusion.FN",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.confusion.precision.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.confusion.precision",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.confusion.recall.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.confusion.recall",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.confusion.f1_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical metrics.confusion.f1_valid",
+      "passed": true
+    },
+    {
+      "check": "llama/dev/canonical parser coverage",
+      "passed": true
+    },
+    {
+      "check": "dev/abstract identical fallback answers",
+      "passed": true
+    },
+    {
+      "check": "dev/canonical identical fallback answers",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original journal equals predictions",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original submission equals predictions",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original labels match raw responses",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original input hash",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original data hash",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original prompt hash",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original fallback representation",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.n.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.n",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.unparsable_answers.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.unparsable_answers",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.answer_coverage.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.answer_coverage",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.official_scores.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.official_scores.accuracy.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.official_scores.accuracy",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.official_scores.tce.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.official_scores.tce",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.official_scores.tce_intra.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.official_scores.tce_intra",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.official_scores.tce_inter.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.official_scores.tce_inter",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.official_scores.combined_score.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.official_scores.combined_score",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.official_scores.acc_plausible_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.official_scores.acc_plausible_valid",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.official_scores.acc_implausible_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.official_scores.acc_implausible_valid",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.official_scores.acc_plausible_invalid.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.official_scores.acc_plausible_invalid",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.official_scores.acc_implausible_invalid.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.official_scores.acc_implausible_invalid",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.ci95.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.ci95.accuracy.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.ci95.accuracy.length",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.ci95.accuracy.0",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.ci95.accuracy.1",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.ci95.tce.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.ci95.tce.length",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.ci95.tce.0",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.ci95.tce.1",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.ci95.combined_score.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.ci95.combined_score.length",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.ci95.combined_score.0",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.ci95.combined_score.1",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.confusion.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.confusion.TP.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.confusion.TP",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.confusion.FP.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.confusion.FP",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.confusion.TN.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.confusion.TN",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.confusion.FN.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.confusion.FN",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.confusion.precision.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.confusion.precision",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.confusion.recall.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.confusion.recall",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.confusion.f1_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original metrics.confusion.f1_valid",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/original parser coverage",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract journal equals predictions",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract submission equals predictions",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract labels match raw responses",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract input hash",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract data hash",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract prompt hash",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract fallback representation",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.n.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.n",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.unparsable_answers.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.unparsable_answers",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.answer_coverage.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.answer_coverage",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.official_scores.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.official_scores.accuracy.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.official_scores.accuracy",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.official_scores.tce.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.official_scores.tce",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.official_scores.tce_intra.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.official_scores.tce_intra",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.official_scores.tce_inter.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.official_scores.tce_inter",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.official_scores.combined_score.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.official_scores.combined_score",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.official_scores.acc_plausible_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.official_scores.acc_plausible_valid",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.official_scores.acc_implausible_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.official_scores.acc_implausible_valid",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.official_scores.acc_plausible_invalid.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.official_scores.acc_plausible_invalid",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.official_scores.acc_implausible_invalid.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.official_scores.acc_implausible_invalid",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.ci95.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.ci95.accuracy.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.ci95.accuracy.length",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.ci95.accuracy.0",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.ci95.accuracy.1",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.ci95.tce.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.ci95.tce.length",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.ci95.tce.0",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.ci95.tce.1",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.ci95.combined_score.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.ci95.combined_score.length",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.ci95.combined_score.0",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.ci95.combined_score.1",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.confusion.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.confusion.TP.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.confusion.TP",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.confusion.FP.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.confusion.FP",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.confusion.TN.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.confusion.TN",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.confusion.FN.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.confusion.FN",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.confusion.precision.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.confusion.precision",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.confusion.recall.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.confusion.recall",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.confusion.f1_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract metrics.confusion.f1_valid",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/abstract parser coverage",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical journal equals predictions",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical submission equals predictions",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical labels match raw responses",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical input hash",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical data hash",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical prompt hash",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical fallback representation",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.n.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.n",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.unparsable_answers.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.unparsable_answers",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.answer_coverage.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.answer_coverage",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.official_scores.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.official_scores.accuracy.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.official_scores.accuracy",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.official_scores.tce.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.official_scores.tce",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.official_scores.tce_intra.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.official_scores.tce_intra",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.official_scores.tce_inter.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.official_scores.tce_inter",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.official_scores.combined_score.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.official_scores.combined_score",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.official_scores.acc_plausible_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.official_scores.acc_plausible_valid",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.official_scores.acc_implausible_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.official_scores.acc_implausible_valid",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.official_scores.acc_plausible_invalid.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.official_scores.acc_plausible_invalid",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.official_scores.acc_implausible_invalid.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.official_scores.acc_implausible_invalid",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.ci95.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.ci95.accuracy.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.ci95.accuracy.length",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.ci95.accuracy.0",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.ci95.accuracy.1",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.ci95.tce.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.ci95.tce.length",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.ci95.tce.0",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.ci95.tce.1",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.ci95.combined_score.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.ci95.combined_score.length",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.ci95.combined_score.0",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.ci95.combined_score.1",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.confusion.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.confusion.TP.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.confusion.TP",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.confusion.FP.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.confusion.FP",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.confusion.TN.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.confusion.TN",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.confusion.FN.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.confusion.FN",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.confusion.precision.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.confusion.precision",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.confusion.recall.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.confusion.recall",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.confusion.f1_valid.exists",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical metrics.confusion.f1_valid",
+      "passed": true
+    },
+    {
+      "check": "llama/test_st1/canonical parser coverage",
+      "passed": true
+    },
+    {
+      "check": "test_st1/abstract identical fallback answers",
+      "passed": true
+    },
+    {
+      "check": "test_st1/canonical identical fallback answers",
+      "passed": true
+    },
+    {
+      "check": "comparison.B2_0/dev.accuracy",
+      "passed": true
+    },
+    {
+      "check": "comparison.B2_0/dev.tce",
+      "passed": true
+    },
+    {
+      "check": "comparison.B2_0/dev.combined_score",
+      "passed": true
+    },
+    {
+      "check": "comparison.B2_0/test_st1.accuracy",
+      "passed": true
+    },
+    {
+      "check": "comparison.B2_0/test_st1.tce",
+      "passed": true
+    },
+    {
+      "check": "comparison.B2_0/test_st1.combined_score",
+      "passed": true
+    },
+    {
+      "check": "comparison.B2_1/dev.accuracy",
+      "passed": true
+    },
+    {
+      "check": "comparison.B2_1/dev.tce",
+      "passed": true
+    },
+    {
+      "check": "comparison.B2_1/dev.combined_score",
+      "passed": true
+    },
+    {
+      "check": "comparison.B2_1/test_st1.accuracy",
+      "passed": true
+    },
+    {
+      "check": "comparison.B2_1/test_st1.tce",
+      "passed": true
+    },
+    {
+      "check": "comparison.B2_1/test_st1.combined_score",
+      "passed": true
+    },
+    {
+      "check": "comparison.B2_2/dev.accuracy",
+      "passed": true
+    },
+    {
+      "check": "comparison.B2_2/dev.tce",
+      "passed": true
+    },
+    {
+      "check": "comparison.B2_2/dev.combined_score",
+      "passed": true
+    },
+    {
+      "check": "comparison.B2_2/test_st1.accuracy",
+      "passed": true
+    },
+    {
+      "check": "comparison.B2_2/test_st1.tce",
+      "passed": true
+    },
+    {
+      "check": "comparison.B2_2/test_st1.combined_score",
+      "passed": true
+    },
+    {
+      "check": "comparison.B2_3/dev.accuracy",
+      "passed": true
+    },
+    {
+      "check": "comparison.B2_3/dev.tce",
+      "passed": true
+    },
+    {
+      "check": "comparison.B2_3/dev.combined_score",
+      "passed": true
+    },
+    {
+      "check": "comparison.B2_3/test_st1.accuracy",
+      "passed": true
+    },
+    {
+      "check": "comparison.B2_3/test_st1.tce",
+      "passed": true
+    },
+    {
+      "check": "comparison.B2_3/test_st1.combined_score",
+      "passed": true
+    },
+    {
+      "check": "comparison.B2_4/dev.accuracy",
+      "passed": true
+    },
+    {
+      "check": "comparison.B2_4/dev.tce",
+      "passed": true
+    },
+    {
+      "check": "comparison.B2_4/dev.combined_score",
+      "passed": true
+    },
+    {
+      "check": "comparison.B2_4/test_st1.accuracy",
+      "passed": true
+    },
+    {
+      "check": "comparison.B2_4/test_st1.tce",
+      "passed": true
+    },
+    {
+      "check": "comparison.B2_4/test_st1.combined_score",
+      "passed": true
+    },
+    {
+      "check": "comparison.Llama_abstract/dev.accuracy",
+      "passed": true
+    },
+    {
+      "check": "comparison.Llama_abstract/dev.tce",
+      "passed": true
+    },
+    {
+      "check": "comparison.Llama_abstract/dev.combined_score",
+      "passed": true
+    },
+    {
+      "check": "comparison.Llama_canonical/dev.accuracy",
+      "passed": true
+    },
+    {
+      "check": "comparison.Llama_canonical/dev.tce",
+      "passed": true
+    },
+    {
+      "check": "comparison.Llama_canonical/dev.combined_score",
+      "passed": true
+    },
+    {
+      "check": "comparison.Llama_original/dev.accuracy",
+      "passed": true
+    },
+    {
+      "check": "comparison.Llama_original/dev.tce",
+      "passed": true
+    },
+    {
+      "check": "comparison.Llama_original/dev.combined_score",
+      "passed": true
+    },
+    {
+      "check": "comparison.Llama_abstract/test_st1.accuracy",
+      "passed": true
+    },
+    {
+      "check": "comparison.Llama_abstract/test_st1.tce",
+      "passed": true
+    },
+    {
+      "check": "comparison.Llama_abstract/test_st1.combined_score",
+      "passed": true
+    },
+    {
+      "check": "comparison.Llama_canonical/test_st1.accuracy",
+      "passed": true
+    },
+    {
+      "check": "comparison.Llama_canonical/test_st1.tce",
+      "passed": true
+    },
+    {
+      "check": "comparison.Llama_canonical/test_st1.combined_score",
+      "passed": true
+    },
+    {
+      "check": "comparison.Llama_original/test_st1.accuracy",
+      "passed": true
+    },
+    {
+      "check": "comparison.Llama_original/test_st1.tce",
+      "passed": true
+    },
+    {
+      "check": "comparison.Llama_original/test_st1.combined_score",
+      "passed": true
+    }
+  ],
+  "issues": [],
+  "runs": [
+    {
+      "method": "B2",
+      "seed": 0,
+      "split": "dev",
+      "best_epoch": 4,
+      "metadata": {
+        "experiment": "B2",
+        "split": "dev",
+        "model": "microsoft/deberta-v3-base",
+        "revision": "8ccc9b6f36199bec6961081d44eb72fb3f7353f3",
+        "gradient_checkpointing": {
+          "use_reentrant": false
+        },
+        "seed": 0,
+        "selection": "dev_accuracy_earliest_tie",
+        "best_epoch": 4,
+        "max_length": 256,
+        "arguments": {
+          "mode": "train",
+          "model": "microsoft/deberta-v3-base",
+          "revision": "8ccc9b6f36199bec6961081d44eb72fb3f7353f3",
+          "seeds": [
+            0
+          ],
+          "epochs": 5,
+          "lr": 2e-05,
+          "batch": 4,
+          "accumulation": 4,
+          "max_length": 256,
+          "output": "/content/drive/MyDrive/SPJ_SemEval2026/neural_v1/b2",
+          "allow_cpu": false
+        },
+        "environment": {
+          "python": "3.13.16",
+          "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+          "packages": {
+            "torch": "2.11.0+cu130",
+            "transformers": "4.57.1",
+            "accelerate": "1.10.1",
+            "bitsandbytes": "0.48.1",
+            "sentencepiece": "0.2.1",
+            "numpy": "2.1.3"
+          }
+        },
+        "train_sha256": "f399023251bfc950fdb1693b0cb3aacf971b5433db9963c7aabde73e324a510b",
+        "dev_sha256": "8d75307950007cbbe320b3b904fb1878dc085ff4e7f420a85a70a98f2e1031d7"
+      },
+      "n": 192,
+      "unparsable_answers": 0,
+      "answer_coverage": 1.0,
+      "official_scores": {
+        "accuracy": 82.29166666666666,
+        "tce": 5.994897959183675,
+        "tce_intra": 5.817592994644663,
+        "tce_inter": 6.172202923722686,
+        "combined_score": 27.941123516202705,
+        "acc_plausible_valid": 87.5,
+        "acc_implausible_valid": 83.33333333333334,
+        "acc_plausible_invalid": 82.97872340425532,
+        "acc_implausible_invalid": 75.51020408163265
+      },
+      "ci95": {
+        "accuracy": [
+          76.5625,
+          87.5
+        ],
+        "tce": [
+          2.4999173280423284,
+          14.81128476043729
+        ],
+        "combined_score": [
+          21.262180530116858,
+          36.85744183486814
+        ]
+      },
+      "confusion": {
+        "TP": 82,
+        "FP": 20,
+        "TN": 76,
+        "FN": 14,
+        "precision": 0.803921568627451,
+        "recall": 0.8541666666666666,
+        "f1_valid": 0.8282828282828283
+      }
+    },
+    {
+      "method": "B2",
+      "seed": 0,
+      "split": "test_st1",
+      "best_epoch": 4,
+      "metadata": {
+        "experiment": "B2",
+        "split": "dev",
+        "model": "microsoft/deberta-v3-base",
+        "revision": "8ccc9b6f36199bec6961081d44eb72fb3f7353f3",
+        "gradient_checkpointing": {
+          "use_reentrant": false
+        },
+        "seed": 0,
+        "selection": "dev_accuracy_earliest_tie",
+        "best_epoch": 4,
+        "max_length": 256,
+        "arguments": {
+          "mode": "train",
+          "model": "microsoft/deberta-v3-base",
+          "revision": "8ccc9b6f36199bec6961081d44eb72fb3f7353f3",
+          "seeds": [
+            0
+          ],
+          "epochs": 5,
+          "lr": 2e-05,
+          "batch": 4,
+          "accumulation": 4,
+          "max_length": 256,
+          "output": "/content/drive/MyDrive/SPJ_SemEval2026/neural_v1/b2",
+          "allow_cpu": false
+        },
+        "environment": {
+          "python": "3.13.16",
+          "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+          "packages": {
+            "torch": "2.11.0+cu130",
+            "transformers": "4.57.1",
+            "accelerate": "1.10.1",
+            "bitsandbytes": "0.48.1",
+            "sentencepiece": "0.2.1",
+            "numpy": "2.1.3"
+          }
+        },
+        "train_sha256": "f399023251bfc950fdb1693b0cb3aacf971b5433db9963c7aabde73e324a510b",
+        "dev_sha256": "8d75307950007cbbe320b3b904fb1878dc085ff4e7f420a85a70a98f2e1031d7"
+      },
+      "n": 191,
+      "unparsable_answers": 0,
+      "answer_coverage": 1.0,
+      "official_scores": {
+        "accuracy": 79.58115183246073,
+        "tce": 7.5797872340425485,
+        "tce_intra": 3.413120567375877,
+        "tce_inter": 11.74645390070922,
+        "combined_score": 25.26859766994735,
+        "acc_plausible_valid": 87.5,
+        "acc_implausible_valid": 83.33333333333334,
+        "acc_plausible_invalid": 72.3404255319149,
+        "acc_implausible_invalid": 75.0
+      },
+      "ci95": {
+        "accuracy": [
+          73.82198952879581,
+          84.81675392670157
+        ],
+        "tce": [
+          3.8495505852842755,
+          16.868914956662916
+        ],
+        "combined_score": [
+          19.75057824675053,
+          31.445283234720073
+        ]
+      },
+      "confusion": {
+        "TP": 82,
+        "FP": 25,
+        "TN": 70,
+        "FN": 14,
+        "precision": 0.7663551401869159,
+        "recall": 0.8541666666666666,
+        "f1_valid": 0.8078817733990148
+      }
+    },
+    {
+      "method": "B2",
+      "seed": 1,
+      "split": "dev",
+      "best_epoch": 3,
+      "metadata": {
+        "experiment": "B2",
+        "split": "dev",
+        "model": "microsoft/deberta-v3-base",
+        "revision": "8ccc9b6f36199bec6961081d44eb72fb3f7353f3",
+        "gradient_checkpointing": {
+          "use_reentrant": false
+        },
+        "seed": 1,
+        "selection": "dev_accuracy_earliest_tie",
+        "best_epoch": 3,
+        "max_length": 256,
+        "arguments": {
+          "mode": "train",
+          "model": "microsoft/deberta-v3-base",
+          "revision": "8ccc9b6f36199bec6961081d44eb72fb3f7353f3",
+          "seeds": [
+            1
+          ],
+          "epochs": 5,
+          "lr": 2e-05,
+          "batch": 4,
+          "accumulation": 4,
+          "max_length": 256,
+          "output": "/content/drive/MyDrive/SPJ_SemEval2026/neural_v1/b2",
+          "allow_cpu": false
+        },
+        "environment": {
+          "python": "3.13.16",
+          "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+          "packages": {
+            "torch": "2.11.0+cu130",
+            "transformers": "4.57.1",
+            "accelerate": "1.10.1",
+            "bitsandbytes": "0.48.1",
+            "sentencepiece": "0.2.1",
+            "numpy": "2.1.3"
+          }
+        },
+        "train_sha256": "f399023251bfc950fdb1693b0cb3aacf971b5433db9963c7aabde73e324a510b",
+        "dev_sha256": "8d75307950007cbbe320b3b904fb1878dc085ff4e7f420a85a70a98f2e1031d7"
+      },
+      "n": 192,
+      "unparsable_answers": 0,
+      "answer_coverage": 1.0,
+      "official_scores": {
+        "accuracy": 78.64583333333334,
+        "tce": 5.053191489361701,
+        "tce_intra": 2.757273122014766,
+        "tce_inter": 7.349109856708637,
+        "combined_score": 28.08192396515497,
+        "acc_plausible_valid": 75.0,
+        "acc_implausible_valid": 75.0,
+        "acc_plausible_invalid": 85.1063829787234,
+        "acc_implausible_invalid": 79.59183673469387
+      },
+      "ci95": {
+        "accuracy": [
+          72.91666666666666,
+          84.375
+        ],
+        "tce": [
+          2.6736514764008423,
+          15.930496916143714
+        ],
+        "combined_score": [
+          19.965469705392415,
+          34.722879209524336
+        ]
+      },
+      "confusion": {
+        "TP": 72,
+        "FP": 17,
+        "TN": 79,
+        "FN": 24,
+        "precision": 0.8089887640449438,
+        "recall": 0.75,
+        "f1_valid": 0.7783783783783783
+      }
+    },
+    {
+      "method": "B2",
+      "seed": 1,
+      "split": "test_st1",
+      "best_epoch": 3,
+      "metadata": {
+        "experiment": "B2",
+        "split": "dev",
+        "model": "microsoft/deberta-v3-base",
+        "revision": "8ccc9b6f36199bec6961081d44eb72fb3f7353f3",
+        "gradient_checkpointing": {
+          "use_reentrant": false
+        },
+        "seed": 1,
+        "selection": "dev_accuracy_earliest_tie",
+        "best_epoch": 3,
+        "max_length": 256,
+        "arguments": {
+          "mode": "train",
+          "model": "microsoft/deberta-v3-base",
+          "revision": "8ccc9b6f36199bec6961081d44eb72fb3f7353f3",
+          "seeds": [
+            1
+          ],
+          "epochs": 5,
+          "lr": 2e-05,
+          "batch": 4,
+          "accumulation": 4,
+          "max_length": 256,
+          "output": "/content/drive/MyDrive/SPJ_SemEval2026/neural_v1/b2",
+          "allow_cpu": false
+        },
+        "environment": {
+          "python": "3.13.16",
+          "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+          "packages": {
+            "torch": "2.11.0+cu130",
+            "transformers": "4.57.1",
+            "accelerate": "1.10.1",
+            "bitsandbytes": "0.48.1",
+            "sentencepiece": "0.2.1",
+            "numpy": "2.1.3"
+          }
+        },
+        "train_sha256": "f399023251bfc950fdb1693b0cb3aacf971b5433db9963c7aabde73e324a510b",
+        "dev_sha256": "8d75307950007cbbe320b3b904fb1878dc085ff4e7f420a85a70a98f2e1031d7"
+      },
+      "n": 191,
+      "unparsable_answers": 0,
+      "answer_coverage": 1.0,
+      "official_scores": {
+        "accuracy": 72.77486910994764,
+        "tce": 3.125,
+        "tce_intra": 3.9007092198581574,
+        "tce_inter": 2.3492907801418426,
+        "combined_score": 30.1087634819224,
+        "acc_plausible_valid": 75.0,
+        "acc_implausible_valid": 68.75,
+        "acc_plausible_invalid": 74.46808510638297,
+        "acc_implausible_invalid": 72.91666666666666
+      },
+      "ci95": {
+        "accuracy": [
+          66.49214659685863,
+          79.05759162303664
+        ],
+        "tce": [
+          2.364732864732863,
+          15.782564275710287
+        ],
+        "combined_score": [
+          18.510055066974097,
+          33.39790279802283
+        ]
+      },
+      "confusion": {
+        "TP": 69,
+        "FP": 25,
+        "TN": 70,
+        "FN": 27,
+        "precision": 0.7340425531914894,
+        "recall": 0.71875,
+        "f1_valid": 0.7263157894736842
+      }
+    },
+    {
+      "method": "B2",
+      "seed": 2,
+      "split": "dev",
+      "best_epoch": 5,
+      "metadata": {
+        "experiment": "B2",
+        "split": "dev",
+        "model": "microsoft/deberta-v3-base",
+        "revision": "8ccc9b6f36199bec6961081d44eb72fb3f7353f3",
+        "gradient_checkpointing": {
+          "use_reentrant": false
+        },
+        "seed": 2,
+        "selection": "dev_accuracy_earliest_tie",
+        "best_epoch": 5,
+        "max_length": 256,
+        "arguments": {
+          "mode": "train",
+          "model": "microsoft/deberta-v3-base",
+          "revision": "8ccc9b6f36199bec6961081d44eb72fb3f7353f3",
+          "seeds": [
+            2
+          ],
+          "epochs": 5,
+          "lr": 2e-05,
+          "batch": 4,
+          "accumulation": 4,
+          "max_length": 256,
+          "output": "/content/drive/MyDrive/SPJ_SemEval2026/neural_v1/b2",
+          "allow_cpu": false
+        },
+        "environment": {
+          "python": "3.13.16",
+          "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+          "packages": {
+            "torch": "2.11.0+cu130",
+            "transformers": "4.57.1",
+            "accelerate": "1.10.1",
+            "bitsandbytes": "0.48.1",
+            "sentencepiece": "0.2.1",
+            "numpy": "2.1.3"
+          }
+        },
+        "train_sha256": "f399023251bfc950fdb1693b0cb3aacf971b5433db9963c7aabde73e324a510b",
+        "dev_sha256": "8d75307950007cbbe320b3b904fb1878dc085ff4e7f420a85a70a98f2e1031d7"
+      },
+      "n": 192,
+      "unparsable_answers": 0,
+      "answer_coverage": 1.0,
+      "official_scores": {
+        "accuracy": 77.08333333333334,
+        "tce": 4.910714285714285,
+        "tce_intra": 1.5197568389057707,
+        "tce_inter": 8.301671732522799,
+        "combined_score": 27.760104498399322,
+        "acc_plausible_valid": 81.25,
+        "acc_implausible_valid": 81.25,
+        "acc_plausible_invalid": 74.46808510638297,
+        "acc_implausible_invalid": 71.42857142857143
+      },
+      "ci95": {
+        "accuracy": [
+          71.35416666666666,
+          82.8125
+        ],
+        "tce": [
+          2.703912022087891,
+          15.652353081700904
+        ],
+        "combined_score": [
+          19.59314482379911,
+          33.669189648160945
+        ]
+      },
+      "confusion": {
+        "TP": 78,
+        "FP": 26,
+        "TN": 70,
+        "FN": 18,
+        "precision": 0.75,
+        "recall": 0.8125,
+        "f1_valid": 0.78
+      }
+    },
+    {
+      "method": "B2",
+      "seed": 2,
+      "split": "test_st1",
+      "best_epoch": 5,
+      "metadata": {
+        "experiment": "B2",
+        "split": "dev",
+        "model": "microsoft/deberta-v3-base",
+        "revision": "8ccc9b6f36199bec6961081d44eb72fb3f7353f3",
+        "gradient_checkpointing": {
+          "use_reentrant": false
+        },
+        "seed": 2,
+        "selection": "dev_accuracy_earliest_tie",
+        "best_epoch": 5,
+        "max_length": 256,
+        "arguments": {
+          "mode": "train",
+          "model": "microsoft/deberta-v3-base",
+          "revision": "8ccc9b6f36199bec6961081d44eb72fb3f7353f3",
+          "seeds": [
+            2
+          ],
+          "epochs": 5,
+          "lr": 2e-05,
+          "batch": 4,
+          "accumulation": 4,
+          "max_length": 256,
+          "output": "/content/drive/MyDrive/SPJ_SemEval2026/neural_v1/b2",
+          "allow_cpu": false
+        },
+        "environment": {
+          "python": "3.13.16",
+          "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+          "packages": {
+            "torch": "2.11.0+cu130",
+            "transformers": "4.57.1",
+            "accelerate": "1.10.1",
+            "bitsandbytes": "0.48.1",
+            "sentencepiece": "0.2.1",
+            "numpy": "2.1.3"
+          }
+        },
+        "train_sha256": "f399023251bfc950fdb1693b0cb3aacf971b5433db9963c7aabde73e324a510b",
+        "dev_sha256": "8d75307950007cbbe320b3b904fb1878dc085ff4e7f420a85a70a98f2e1031d7"
+      },
+      "n": 191,
+      "unparsable_answers": 0,
+      "answer_coverage": 1.0,
+      "official_scores": {
+        "accuracy": 74.3455497382199,
+        "tce": 11.45833333333334,
+        "tce_intra": 4.898049645390071,
+        "tce_inter": 18.018617021276608,
+        "combined_score": 21.106565474494623,
+        "acc_plausible_valid": 83.33333333333334,
+        "acc_implausible_valid": 83.33333333333334,
+        "acc_plausible_invalid": 70.2127659574468,
+        "acc_implausible_invalid": 60.416666666666664
+      },
+      "ci95": {
+        "accuracy": [
+          67.5392670157068,
+          80.10471204188482
+        ],
+        "tce": [
+          6.27889126886985,
+          21.289496463676784
+        ],
+        "combined_score": [
+          17.17350378658966,
+          25.53981299573803
+        ]
+      },
+      "confusion": {
+        "TP": 80,
+        "FP": 33,
+        "TN": 62,
+        "FN": 16,
+        "precision": 0.7079646017699115,
+        "recall": 0.8333333333333334,
+        "f1_valid": 0.7655502392344498
+      }
+    },
+    {
+      "method": "B2",
+      "seed": 3,
+      "split": "dev",
+      "best_epoch": 4,
+      "metadata": {
+        "experiment": "B2",
+        "split": "dev",
+        "model": "microsoft/deberta-v3-base",
+        "revision": "8ccc9b6f36199bec6961081d44eb72fb3f7353f3",
+        "gradient_checkpointing": {
+          "use_reentrant": false
+        },
+        "seed": 3,
+        "selection": "dev_accuracy_earliest_tie",
+        "best_epoch": 4,
+        "max_length": 256,
+        "arguments": {
+          "mode": "train",
+          "model": "microsoft/deberta-v3-base",
+          "revision": "8ccc9b6f36199bec6961081d44eb72fb3f7353f3",
+          "seeds": [
+            3
+          ],
+          "epochs": 5,
+          "lr": 2e-05,
+          "batch": 4,
+          "accumulation": 4,
+          "max_length": 256,
+          "output": "/content/drive/MyDrive/SPJ_SemEval2026/neural_v1/b2",
+          "allow_cpu": false
+        },
+        "environment": {
+          "python": "3.13.16",
+          "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+          "packages": {
+            "torch": "2.11.0+cu130",
+            "transformers": "4.57.1",
+            "accelerate": "1.10.1",
+            "bitsandbytes": "0.48.1",
+            "sentencepiece": "0.2.1",
+            "numpy": "2.1.3"
+          }
+        },
+        "train_sha256": "f399023251bfc950fdb1693b0cb3aacf971b5433db9963c7aabde73e324a510b",
+        "dev_sha256": "8d75307950007cbbe320b3b904fb1878dc085ff4e7f420a85a70a98f2e1031d7"
+      },
+      "n": 192,
+      "unparsable_answers": 0,
+      "answer_coverage": 1.0,
+      "official_scores": {
+        "accuracy": 77.60416666666666,
+        "tce": 6.972789115646265,
+        "tce_intra": 4.6456614560717995,
+        "tce_inter": 9.29991677522073,
+        "combined_score": 25.228640839164896,
+        "acc_plausible_valid": 81.25,
+        "acc_implausible_valid": 83.33333333333334,
+        "acc_plausible_invalid": 76.59574468085107,
+        "acc_implausible_invalid": 69.38775510204081
+      },
+      "ci95": {
+        "accuracy": [
+          71.35416666666666,
+          83.33333333333334
+        ],
+        "tce": [
+          3.1656218967229353,
+          17.30869911933985
+        ],
+        "combined_score": [
+          19.212111973010096,
+          32.5448568431369
+        ]
+      },
+      "confusion": {
+        "TP": 79,
+        "FP": 26,
+        "TN": 70,
+        "FN": 17,
+        "precision": 0.7523809523809524,
+        "recall": 0.8229166666666666,
+        "f1_valid": 0.7860696517412935
+      }
+    },
+    {
+      "method": "B2",
+      "seed": 3,
+      "split": "test_st1",
+      "best_epoch": 4,
+      "metadata": {
+        "experiment": "B2",
+        "split": "dev",
+        "model": "microsoft/deberta-v3-base",
+        "revision": "8ccc9b6f36199bec6961081d44eb72fb3f7353f3",
+        "gradient_checkpointing": {
+          "use_reentrant": false
+        },
+        "seed": 3,
+        "selection": "dev_accuracy_earliest_tie",
+        "best_epoch": 4,
+        "max_length": 256,
+        "arguments": {
+          "mode": "train",
+          "model": "microsoft/deberta-v3-base",
+          "revision": "8ccc9b6f36199bec6961081d44eb72fb3f7353f3",
+          "seeds": [
+            3
+          ],
+          "epochs": 5,
+          "lr": 2e-05,
+          "batch": 4,
+          "accumulation": 4,
+          "max_length": 256,
+          "output": "/content/drive/MyDrive/SPJ_SemEval2026/neural_v1/b2",
+          "allow_cpu": false
+        },
+        "environment": {
+          "python": "3.13.16",
+          "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+          "packages": {
+            "torch": "2.11.0+cu130",
+            "transformers": "4.57.1",
+            "accelerate": "1.10.1",
+            "bitsandbytes": "0.48.1",
+            "sentencepiece": "0.2.1",
+            "numpy": "2.1.3"
+          }
+        },
+        "train_sha256": "f399023251bfc950fdb1693b0cb3aacf971b5433db9963c7aabde73e324a510b",
+        "dev_sha256": "8d75307950007cbbe320b3b904fb1878dc085ff4e7f420a85a70a98f2e1031d7"
+      },
+      "n": 191,
+      "unparsable_answers": 0,
+      "answer_coverage": 1.0,
+      "official_scores": {
+        "accuracy": 76.43979057591623,
+        "tce": 8.665780141843967,
+        "tce_intra": 1.374113475177296,
+        "tce_inter": 15.957446808510639,
+        "combined_score": 23.38615361187868,
+        "acc_plausible_valid": 83.33333333333334,
+        "acc_implausible_valid": 85.41666666666666,
+        "acc_plausible_invalid": 68.08510638297872,
+        "acc_implausible_invalid": 68.75
+      },
+      "ci95": {
+        "accuracy": [
+          70.68062827225131,
+          82.19895287958116
+        ],
+        "tce": [
+          4.82905982905983,
+          18.66225832438238
+        ],
+        "combined_score": [
+          18.384271695480038,
+          28.223675643134417
+        ]
+      },
+      "confusion": {
+        "TP": 81,
+        "FP": 30,
+        "TN": 65,
+        "FN": 15,
+        "precision": 0.7297297297297297,
+        "recall": 0.84375,
+        "f1_valid": 0.7826086956521738
+      }
+    },
+    {
+      "method": "B2",
+      "seed": 4,
+      "split": "dev",
+      "best_epoch": 5,
+      "metadata": {
+        "experiment": "B2",
+        "split": "dev",
+        "model": "microsoft/deberta-v3-base",
+        "revision": "8ccc9b6f36199bec6961081d44eb72fb3f7353f3",
+        "gradient_checkpointing": {
+          "use_reentrant": false
+        },
+        "seed": 4,
+        "selection": "dev_accuracy_earliest_tie",
+        "best_epoch": 5,
+        "max_length": 256,
+        "arguments": {
+          "mode": "train",
+          "model": "microsoft/deberta-v3-base",
+          "revision": "8ccc9b6f36199bec6961081d44eb72fb3f7353f3",
+          "seeds": [
+            4
+          ],
+          "epochs": 5,
+          "lr": 2e-05,
+          "batch": 4,
+          "accumulation": 4,
+          "max_length": 256,
+          "output": "/content/drive/MyDrive/SPJ_SemEval2026/neural_v1/b2",
+          "allow_cpu": false
+        },
+        "environment": {
+          "python": "3.13.16",
+          "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+          "packages": {
+            "torch": "2.11.0+cu130",
+            "transformers": "4.57.1",
+            "accelerate": "1.10.1",
+            "bitsandbytes": "0.48.1",
+            "sentencepiece": "0.2.1",
+            "numpy": "2.1.3"
+          }
+        },
+        "train_sha256": "f399023251bfc950fdb1693b0cb3aacf971b5433db9963c7aabde73e324a510b",
+        "dev_sha256": "8d75307950007cbbe320b3b904fb1878dc085ff4e7f420a85a70a98f2e1031d7"
+      },
+      "n": 192,
+      "unparsable_answers": 0,
+      "answer_coverage": 1.0,
+      "official_scores": {
+        "accuracy": 79.16666666666666,
+        "tce": 9.056122448979593,
+        "tce_intra": 3.5818316688377507,
+        "tce_inter": 14.530413229121436,
+        "combined_score": 23.930568237203513,
+        "acc_plausible_valid": 87.5,
+        "acc_implausible_valid": 85.41666666666666,
+        "acc_plausible_invalid": 74.46808510638297,
+        "acc_implausible_invalid": 69.38775510204081
+      },
+      "ci95": {
+        "accuracy": [
+          73.4375,
+          84.89583333333334
+        ],
+        "tce": [
+          4.656708228971621,
+          18.091204430490148
+        ],
+        "combined_score": [
+          19.29624249395212,
+          29.721207083902133
+        ]
+      },
+      "confusion": {
+        "TP": 83,
+        "FP": 27,
+        "TN": 69,
+        "FN": 13,
+        "precision": 0.7545454545454545,
+        "recall": 0.8645833333333334,
+        "f1_valid": 0.8058252427184466
+      }
+    },
+    {
+      "method": "B2",
+      "seed": 4,
+      "split": "test_st1",
+      "best_epoch": 5,
+      "metadata": {
+        "experiment": "B2",
+        "split": "dev",
+        "model": "microsoft/deberta-v3-base",
+        "revision": "8ccc9b6f36199bec6961081d44eb72fb3f7353f3",
+        "gradient_checkpointing": {
+          "use_reentrant": false
+        },
+        "seed": 4,
+        "selection": "dev_accuracy_earliest_tie",
+        "best_epoch": 5,
+        "max_length": 256,
+        "arguments": {
+          "mode": "train",
+          "model": "microsoft/deberta-v3-base",
+          "revision": "8ccc9b6f36199bec6961081d44eb72fb3f7353f3",
+          "seeds": [
+            4
+          ],
+          "epochs": 5,
+          "lr": 2e-05,
+          "batch": 4,
+          "accumulation": 4,
+          "max_length": 256,
+          "output": "/content/drive/MyDrive/SPJ_SemEval2026/neural_v1/b2",
+          "allow_cpu": false
+        },
+        "environment": {
+          "python": "3.13.16",
+          "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+          "packages": {
+            "torch": "2.11.0+cu130",
+            "transformers": "4.57.1",
+            "accelerate": "1.10.1",
+            "bitsandbytes": "0.48.1",
+            "sentencepiece": "0.2.1",
+            "numpy": "2.1.3"
+          }
+        },
+        "train_sha256": "f399023251bfc950fdb1693b0cb3aacf971b5433db9963c7aabde73e324a510b",
+        "dev_sha256": "8d75307950007cbbe320b3b904fb1878dc085ff4e7f420a85a70a98f2e1031d7"
+      },
+      "n": 191,
+      "unparsable_answers": 0,
+      "answer_coverage": 1.0,
+      "official_scores": {
+        "accuracy": 79.58115183246073,
+        "tce": 16.001773049645394,
+        "tce_intra": 7.668439716312065,
+        "tce_inter": 24.335106382978722,
+        "combined_score": 20.760385492774265,
+        "acc_plausible_valid": 87.5,
+        "acc_implausible_valid": 95.83333333333334,
+        "acc_plausible_invalid": 63.829787234042556,
+        "acc_implausible_invalid": 70.83333333333334
+      },
+      "ci95": {
+        "accuracy": [
+          73.82198952879581,
+          85.34031413612566
+        ],
+        "tce": [
+          10.363909293694594,
+          23.470781619385342
+        ],
+        "combined_score": [
+          17.95264866140876,
+          24.33245964111466
+        ]
+      },
+      "confusion": {
+        "TP": 88,
+        "FP": 31,
+        "TN": 64,
+        "FN": 8,
+        "precision": 0.7394957983193278,
+        "recall": 0.9166666666666666,
+        "f1_valid": 0.8186046511627908
+      }
+    },
+    {
+      "method": "Llama",
+      "representation": "original",
+      "split": "dev",
+      "metadata": {
+        "experiment": "N1",
+        "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+        "revision": "8afb486c1db24fe5011ec46dfbe5b5dccdb575c2",
+        "split": "dev",
+        "representation": "original",
+        "prompt_sha256_12": "565095f7e74f",
+        "prompt": {
+          "system": "You are a careful logician. You judge only the FORM of an argument, never whether its statements are true in the real world. The symbols X, Y and Z (or any words) stand for arbitrary sets. Every set is non-empty (existential import). 'All A are B' means every member of A is in B; 'No A are B' means A and B share no member; 'Some A are B' means at least one member lies in both; 'Some A are not B' means at least one member of A is outside B. An argument is VALID if the conclusion must be true whenever both premises are true; otherwise it is INVALID.",
+          "user": "{argument}\n\nIs this argument formally valid? Answer with exactly one word: VALID or INVALID."
+        },
+        "items_sha256": "a3b435568c69e9591d8bfcbfd13b31ee0e183103a069e0c0ed79854d27b27eac",
+        "quantization": "nf4-double",
+        "max_new_tokens": 8,
+        "do_sample": false,
+        "seed": 42,
+        "environment": {
+          "python": "3.13.16",
+          "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+          "packages": {
+            "torch": "2.11.0+cu130",
+            "transformers": "4.57.1",
+            "accelerate": "1.10.1",
+            "bitsandbytes": "0.48.1",
+            "sentencepiece": "0.2.1",
+            "numpy": "2.1.3"
+          }
+        }
+      },
+      "predicted_valid": 155,
+      "n": 192,
+      "unparsable_answers": 0,
+      "answer_coverage": 1.0,
+      "official_scores": {
+        "accuracy": 64.0625,
+        "tce": 44.680851063829785,
+        "tce_intra": 27.440204805326378,
+        "tce_inter": 61.921497322333195,
+        "combined_score": 13.286346393784076,
+        "acc_plausible_valid": 100.0,
+        "acc_implausible_valid": 89.58333333333334,
+        "acc_plausible_invalid": 10.638297872340425,
+        "acc_implausible_invalid": 55.10204081632652
+      },
+      "ci95": {
+        "accuracy": [
+          57.291666666666664,
+          70.83333333333334
+        ],
+        "tce": [
+          39.79591836734694,
+          48.75076219512194
+        ],
+        "combined_score": [
+          11.804336228114325,
+          14.83001557707873
+        ]
+      },
+      "confusion": {
+        "TP": 91,
+        "FP": 64,
+        "TN": 32,
+        "FN": 5,
+        "precision": 0.5870967741935483,
+        "recall": 0.9479166666666666,
+        "f1_valid": 0.7250996015936254
+      },
+      "parsed": {
+        "n": 159,
+        "accuracy": 66.0377358490566
+      },
+      "fallback": {
+        "n": 33,
+        "accuracy": 54.54545454545455
+      }
+    },
+    {
+      "method": "Llama",
+      "representation": "abstract",
+      "split": "dev",
+      "metadata": {
+        "experiment": "N1",
+        "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+        "revision": "8afb486c1db24fe5011ec46dfbe5b5dccdb575c2",
+        "split": "dev",
+        "representation": "abstract",
+        "prompt_sha256_12": "565095f7e74f",
+        "prompt": {
+          "system": "You are a careful logician. You judge only the FORM of an argument, never whether its statements are true in the real world. The symbols X, Y and Z (or any words) stand for arbitrary sets. Every set is non-empty (existential import). 'All A are B' means every member of A is in B; 'No A are B' means A and B share no member; 'Some A are B' means at least one member lies in both; 'Some A are not B' means at least one member of A is outside B. An argument is VALID if the conclusion must be true whenever both premises are true; otherwise it is INVALID.",
+          "user": "{argument}\n\nIs this argument formally valid? Answer with exactly one word: VALID or INVALID."
+        },
+        "items_sha256": "a3b435568c69e9591d8bfcbfd13b31ee0e183103a069e0c0ed79854d27b27eac",
+        "quantization": "nf4-double",
+        "max_new_tokens": 8,
+        "do_sample": false,
+        "seed": 42,
+        "environment": {
+          "python": "3.13.16",
+          "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+          "packages": {
+            "torch": "2.11.0+cu130",
+            "transformers": "4.57.1",
+            "accelerate": "1.10.1",
+            "bitsandbytes": "0.48.1",
+            "sentencepiece": "0.2.1",
+            "numpy": "2.1.3"
+          }
+        }
+      },
+      "predicted_valid": 180,
+      "n": 192,
+      "unparsable_answers": 0,
+      "answer_coverage": 1.0,
+      "official_scores": {
+        "accuracy": 53.125,
+        "tce": 47.87234042553192,
+        "tce_intra": 8.140197568389057,
+        "tce_inter": 87.60448328267478,
+        "combined_score": 10.865760031609591,
+        "acc_plausible_valid": 100.0,
+        "acc_implausible_valid": 93.75,
+        "acc_plausible_invalid": 4.25531914893617,
+        "acc_implausible_invalid": 14.285714285714285
+      },
+      "ci95": {
+        "accuracy": [
+          45.83333333333333,
+          60.416666666666664
+        ],
+        "tce": [
+          44.791666666666664,
+          50.0
+        ],
+        "combined_score": [
+          9.388987911824643,
+          12.358452992600201
+        ]
+      },
+      "confusion": {
+        "TP": 93,
+        "FP": 87,
+        "TN": 9,
+        "FN": 3,
+        "precision": 0.5166666666666667,
+        "recall": 0.96875,
+        "f1_valid": 0.673913043478261
+      },
+      "parsed": {
+        "n": 159,
+        "accuracy": 52.83018867924528
+      },
+      "fallback": {
+        "n": 33,
+        "accuracy": 54.54545454545455
+      }
+    },
+    {
+      "method": "Llama",
+      "representation": "canonical",
+      "split": "dev",
+      "metadata": {
+        "experiment": "N1",
+        "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+        "revision": "8afb486c1db24fe5011ec46dfbe5b5dccdb575c2",
+        "split": "dev",
+        "representation": "canonical",
+        "prompt_sha256_12": "565095f7e74f",
+        "prompt": {
+          "system": "You are a careful logician. You judge only the FORM of an argument, never whether its statements are true in the real world. The symbols X, Y and Z (or any words) stand for arbitrary sets. Every set is non-empty (existential import). 'All A are B' means every member of A is in B; 'No A are B' means A and B share no member; 'Some A are B' means at least one member lies in both; 'Some A are not B' means at least one member of A is outside B. An argument is VALID if the conclusion must be true whenever both premises are true; otherwise it is INVALID.",
+          "user": "{argument}\n\nIs this argument formally valid? Answer with exactly one word: VALID or INVALID."
+        },
+        "items_sha256": "a3b435568c69e9591d8bfcbfd13b31ee0e183103a069e0c0ed79854d27b27eac",
+        "quantization": "nf4-double",
+        "max_new_tokens": 8,
+        "do_sample": false,
+        "seed": 42,
+        "environment": {
+          "python": "3.13.16",
+          "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+          "packages": {
+            "torch": "2.11.0+cu130",
+            "transformers": "4.57.1",
+            "accelerate": "1.10.1",
+            "bitsandbytes": "0.48.1",
+            "sentencepiece": "0.2.1",
+            "numpy": "2.1.3"
+          }
+        }
+      },
+      "predicted_valid": 152,
+      "n": 192,
+      "unparsable_answers": 0,
+      "answer_coverage": 1.0,
+      "official_scores": {
+        "accuracy": 66.66666666666666,
+        "tce": 38.320035460992905,
+        "tce_intra": 17.975647705890864,
+        "tce_inter": 58.664423216094946,
+        "combined_score": 14.270218264461983,
+        "acc_plausible_valid": 97.91666666666666,
+        "acc_implausible_valid": 93.75,
+        "acc_plausible_invalid": 21.27659574468085,
+        "acc_implausible_invalid": 53.06122448979592
+      },
+      "ci95": {
+        "accuracy": [
+          59.895833333333336,
+          73.4375
+        ],
+        "tce": [
+          31.657047329801483,
+          44.34032179879185
+        ],
+        "combined_score": [
+          12.664203195050822,
+          15.986789642705899
+        ]
+      },
+      "confusion": {
+        "TP": 92,
+        "FP": 60,
+        "TN": 36,
+        "FN": 4,
+        "precision": 0.6052631578947368,
+        "recall": 0.9583333333333334,
+        "f1_valid": 0.7419354838709677
+      },
+      "parsed": {
+        "n": 159,
+        "accuracy": 69.18238993710692
+      },
+      "fallback": {
+        "n": 33,
+        "accuracy": 54.54545454545455
+      }
+    },
+    {
+      "method": "Llama",
+      "representation": "original",
+      "split": "test_st1",
+      "metadata": {
+        "experiment": "N1",
+        "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+        "revision": "8afb486c1db24fe5011ec46dfbe5b5dccdb575c2",
+        "split": "test_st1",
+        "representation": "original",
+        "prompt_sha256_12": "565095f7e74f",
+        "prompt": {
+          "system": "You are a careful logician. You judge only the FORM of an argument, never whether its statements are true in the real world. The symbols X, Y and Z (or any words) stand for arbitrary sets. Every set is non-empty (existential import). 'All A are B' means every member of A is in B; 'No A are B' means A and B share no member; 'Some A are B' means at least one member lies in both; 'Some A are not B' means at least one member of A is outside B. An argument is VALID if the conclusion must be true whenever both premises are true; otherwise it is INVALID.",
+          "user": "{argument}\n\nIs this argument formally valid? Answer with exactly one word: VALID or INVALID."
+        },
+        "items_sha256": "9183248924cd75b6e2d3e394a753ddb1b94160fc504a534b06cdbee8c84a6e6b",
+        "quantization": "nf4-double",
+        "max_new_tokens": 8,
+        "do_sample": false,
+        "seed": 42,
+        "environment": {
+          "python": "3.13.16",
+          "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+          "packages": {
+            "torch": "2.11.0+cu130",
+            "transformers": "4.57.1",
+            "accelerate": "1.10.1",
+            "bitsandbytes": "0.48.1",
+            "sentencepiece": "0.2.1",
+            "numpy": "2.1.3"
+          }
+        }
+      },
+      "predicted_valid": 147,
+      "n": 191,
+      "unparsable_answers": 0,
+      "answer_coverage": 1.0,
+      "official_scores": {
+        "accuracy": 67.01570680628272,
+        "tce": 43.61702127659574,
+        "tce_intra": 33.20035460992907,
+        "tce_inter": 54.033687943262414,
+        "combined_score": 13.967089328146919,
+        "acc_plausible_valid": 100.0,
+        "acc_implausible_valid": 87.5,
+        "acc_plausible_invalid": 12.76595744680851,
+        "acc_implausible_invalid": 66.66666666666666
+      },
+      "ci95": {
+        "accuracy": [
+          60.20942408376963,
+          73.29842931937172
+        ],
+        "tce": [
+          38.46153846153846,
+          47.916666666666664
+        ],
+        "combined_score": [
+          12.501983939968307,
+          15.506606725778122
+        ]
+      },
+      "confusion": {
+        "TP": 90,
+        "FP": 57,
+        "TN": 38,
+        "FN": 6,
+        "precision": 0.6122448979591837,
+        "recall": 0.9375,
+        "f1_valid": 0.7407407407407408
+      },
+      "parsed": {
+        "n": 160,
+        "accuracy": 67.5
+      },
+      "fallback": {
+        "n": 31,
+        "accuracy": 64.51612903225806
+      }
+    },
+    {
+      "method": "Llama",
+      "representation": "abstract",
+      "split": "test_st1",
+      "metadata": {
+        "experiment": "N1",
+        "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+        "revision": "8afb486c1db24fe5011ec46dfbe5b5dccdb575c2",
+        "split": "test_st1",
+        "representation": "abstract",
+        "prompt_sha256_12": "565095f7e74f",
+        "prompt": {
+          "system": "You are a careful logician. You judge only the FORM of an argument, never whether its statements are true in the real world. The symbols X, Y and Z (or any words) stand for arbitrary sets. Every set is non-empty (existential import). 'All A are B' means every member of A is in B; 'No A are B' means A and B share no member; 'Some A are B' means at least one member lies in both; 'Some A are not B' means at least one member of A is outside B. An argument is VALID if the conclusion must be true whenever both premises are true; otherwise it is INVALID.",
+          "user": "{argument}\n\nIs this argument formally valid? Answer with exactly one word: VALID or INVALID."
+        },
+        "items_sha256": "9183248924cd75b6e2d3e394a753ddb1b94160fc504a534b06cdbee8c84a6e6b",
+        "quantization": "nf4-double",
+        "max_new_tokens": 8,
+        "do_sample": false,
+        "seed": 42,
+        "environment": {
+          "python": "3.13.16",
+          "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+          "packages": {
+            "torch": "2.11.0+cu130",
+            "transformers": "4.57.1",
+            "accelerate": "1.10.1",
+            "bitsandbytes": "0.48.1",
+            "sentencepiece": "0.2.1",
+            "numpy": "2.1.3"
+          }
+        }
+      },
+      "predicted_valid": 185,
+      "n": 191,
+      "unparsable_answers": 0,
+      "answer_coverage": 1.0,
+      "official_scores": {
+        "accuracy": 52.35602094240838,
+        "tce": 48.958333333333336,
+        "tce_intra": 4.2553191489361755,
+        "tce_inter": 93.66134751773049,
+        "combined_score": 10.660558467846148,
+        "acc_plausible_valid": 100.0,
+        "acc_implausible_valid": 97.91666666666666,
+        "acc_plausible_invalid": 8.51063829787234,
+        "acc_implausible_invalid": 2.083333333333333
+      },
+      "ci95": {
+        "accuracy": [
+          45.54973821989529,
+          59.16230366492147
+        ],
+        "tce": [
+          46.739130434782616,
+          50.00000000000001
+        ],
+        "combined_score": [
+          9.23587766721869,
+          12.0924018848653
+        ]
+      },
+      "confusion": {
+        "TP": 95,
+        "FP": 90,
+        "TN": 5,
+        "FN": 1,
+        "precision": 0.5135135135135135,
+        "recall": 0.9895833333333334,
+        "f1_valid": 0.6761565836298932
+      },
+      "parsed": {
+        "n": 160,
+        "accuracy": 50.0
+      },
+      "fallback": {
+        "n": 31,
+        "accuracy": 64.51612903225806
+      }
+    },
+    {
+      "method": "Llama",
+      "representation": "canonical",
+      "split": "test_st1",
+      "metadata": {
+        "experiment": "N1",
+        "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+        "revision": "8afb486c1db24fe5011ec46dfbe5b5dccdb575c2",
+        "split": "test_st1",
+        "representation": "canonical",
+        "prompt_sha256_12": "565095f7e74f",
+        "prompt": {
+          "system": "You are a careful logician. You judge only the FORM of an argument, never whether its statements are true in the real world. The symbols X, Y and Z (or any words) stand for arbitrary sets. Every set is non-empty (existential import). 'All A are B' means every member of A is in B; 'No A are B' means A and B share no member; 'Some A are B' means at least one member lies in both; 'Some A are not B' means at least one member of A is outside B. An argument is VALID if the conclusion must be true whenever both premises are true; otherwise it is INVALID.",
+          "user": "{argument}\n\nIs this argument formally valid? Answer with exactly one word: VALID or INVALID."
+        },
+        "items_sha256": "9183248924cd75b6e2d3e394a753ddb1b94160fc504a534b06cdbee8c84a6e6b",
+        "quantization": "nf4-double",
+        "max_new_tokens": 8,
+        "do_sample": false,
+        "seed": 42,
+        "environment": {
+          "python": "3.13.16",
+          "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+          "packages": {
+            "torch": "2.11.0+cu130",
+            "transformers": "4.57.1",
+            "accelerate": "1.10.1",
+            "bitsandbytes": "0.48.1",
+            "sentencepiece": "0.2.1",
+            "numpy": "2.1.3"
+          }
+        }
+      },
+      "predicted_valid": 135,
+      "n": 191,
+      "unparsable_answers": 0,
+      "answer_coverage": 1.0,
+      "official_scores": {
+        "accuracy": 79.58115183246073,
+        "tce": 27.65957446808511,
+        "tce_intra": 14.117907801418436,
+        "tce_inter": 41.20124113475178,
+        "combined_score": 18.271467996998382,
+        "acc_plausible_valid": 100.0,
+        "acc_implausible_valid": 100.0,
+        "acc_plausible_invalid": 44.680851063829785,
+        "acc_implausible_invalid": 72.91666666666666
+      },
+      "ci95": {
+        "accuracy": [
+          73.82198952879581,
+          84.81675392670157
+        ],
+        "tce": [
+          20.408163265306122,
+          34.72222222222222
+        ],
+        "combined_score": [
+          16.31606475030251,
+          20.74876634196064
+        ]
+      },
+      "confusion": {
+        "TP": 96,
+        "FP": 39,
+        "TN": 56,
+        "FN": 0,
+        "precision": 0.7111111111111111,
+        "recall": 1.0,
+        "f1_valid": 0.8311688311688311
+      },
+      "parsed": {
+        "n": 160,
+        "accuracy": 82.5
+      },
+      "fallback": {
+        "n": 31,
+        "accuracy": 64.51612903225806
+      }
+    }
+  ],
+  "b2_summary": {
+    "dev": {
+      "accuracy": {
+        "mean": 78.95833333333333,
+        "sd": 2.0372507516258227,
+        "min": 77.08333333333334,
+        "max": 82.29166666666666
+      },
+      "tce": {
+        "mean": 6.397543059777104,
+        "sd": 1.7013976915154716,
+        "min": 4.910714285714285,
+        "max": 9.056122448979593
+      },
+      "combined_score": {
+        "mean": 26.58847221122508,
+        "sd": 1.8938308270593895,
+        "min": 23.930568237203513,
+        "max": 28.08192396515497
+      }
+    },
+    "test_st1": {
+      "accuracy": {
+        "mean": 76.54450261780104,
+        "sd": 3.0618202130289927,
+        "min": 72.77486910994764,
+        "max": 79.58115183246073
+      },
+      "tce": {
+        "mean": 9.36613475177305,
+        "sd": 4.770804113260498,
+        "min": 3.125,
+        "max": 16.001773049645394
+      },
+      "combined_score": {
+        "mean": 24.126093146203463,
+        "sd": 3.810862986768569,
+        "min": 20.760385492774265,
+        "max": 30.1087634819224
+      }
+    }
+  },
+  "exploratory_mcnemar": [
+    {
+      "a": "Llama_canonical",
+      "b": "Llama_original",
+      "a_only_correct": 28,
+      "b_only_correct": 4,
+      "p_value": 1.9301194697618484e-05,
+      "p_holm": 3.860238939523697e-05
+    },
+    {
+      "a": "Llama_abstract",
+      "b": "Llama_original",
+      "a_only_correct": 5,
+      "b_only_correct": 33,
+      "p_value": 4.255962267052382e-06,
+      "p_holm": 1.2767886801157147e-05
+    },
+    {
+      "a": "B2_0",
+      "b": "B1",
+      "a_only_correct": 39,
+      "b_only_correct": 12,
+      "p_value": 0.0001980394513374506,
+      "p_holm": 0.0001980394513374506
+    }
+  ],
+  "limitations": [
+    "No model weights, full console logs or training source snapshot in archive.",
+    "Recomputed scores verify predictions, not independent re-execution of GPU inference.",
+    "Cannot prove absence of test-driven tuning from exported files."
+  ]
+}

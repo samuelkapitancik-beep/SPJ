@@ -1,0 +1,67 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 0.6842385222332907,
+    "accuracy": 68.22916666666666,
+    "tce": 24.04336734693878,
+    "tce_intra": 3.320849616442331,
+    "tce_inter": 44.76588507743523,
+    "combined_score": 16.165715992549533,
+    "acc_plausible_valid": 43.75,
+    "acc_implausible_valid": 47.91666666666667,
+    "acc_plausible_invalid": 89.36170212765957,
+    "acc_implausible_invalid": 91.83673469387756
+  },
+  {
+    "epoch": 2,
+    "train_loss": 0.5365446009150373,
+    "accuracy": 78.125,
+    "tce": 11.096938775510203,
+    "tce_intra": 7.728144449269067,
+    "tce_inter": 14.46573310175134,
+    "combined_score": 22.366465514903208,
+    "acc_plausible_valid": 87.5,
+    "acc_implausible_valid": 83.33333333333334,
+    "acc_plausible_invalid": 76.59574468085107,
+    "acc_implausible_invalid": 65.3061224489796
+  },
+  {
+    "epoch": 3,
+    "train_loss": 0.35046362411960297,
+    "accuracy": 78.64583333333334,
+    "tce": 5.053191489361701,
+    "tce_intra": 2.757273122014766,
+    "tce_inter": 7.349109856708637,
+    "combined_score": 28.08192396515497,
+    "acc_plausible_valid": 75.0,
+    "acc_implausible_valid": 75.0,
+    "acc_plausible_invalid": 85.1063829787234,
+    "acc_implausible_invalid": 79.59183673469387
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.23804738369646333,
+    "accuracy": 78.64583333333334,
+    "tce": 8.62145390070922,
+    "tce_intra": 5.772814444926915,
+    "tce_inter": 11.470093356491525,
+    "combined_score": 24.094958485944453,
+    "acc_plausible_valid": 79.16666666666666,
+    "acc_implausible_valid": 89.58333333333334,
+    "acc_plausible_invalid": 72.3404255319149,
+    "acc_implausible_invalid": 73.46938775510205
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.1626653930089648,
+    "accuracy": 77.08333333333334,
+    "tce": 3.690838037342587,
+    "tce_intra": 3.690838037342587,
+    "tce_inter": 3.690838037342587,
+    "combined_score": 30.280873899242575,
+    "acc_plausible_valid": 77.08333333333334,
+    "acc_implausible_valid": 77.08333333333334,
+    "acc_plausible_invalid": 80.85106382978722,
+    "acc_implausible_invalid": 73.46938775510205
+  }
+]
