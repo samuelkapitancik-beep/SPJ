@@ -1,0 +1,52 @@
+# Konfigurácia Subtasku 2 (ST2). Načítava sa SPOLU s configs/experiment.yaml (src/st2_config.py):
+# z experiment.yaml sa berú spoločné veci (seed, cesty k dátam, bootstrap, mriežka B1), ktoré sa nemenia.
+st2:
+  # Syntetické dev množiny z ST1 (src/st2_devset.py): báza = ST1 dev, rušivé premisy iba z ST1 train.
+  dev_base: data/processed/dev.json
+  dev_pool: data/processed/train.json
+  dev_dir: data/processed/st2
+  dev_variants: [easy, mixed, hard]
+  dev_seeds: [42, 43, 44]
+  # Zvolená konfigurácia symbolickej časti S2 (voľba IBA na dev množinách, zdôvodnenie v správe).
+  # Pôvodné nastavenie M. Kelemena: tie_break=jaccard, invalid_rule=any_parsed, fallback=invalid.
+  # Dev (outputs/st2_dev_results.json, 9 množín): struct trafil správnu dvojicu v 53/87 remízach, jaccard 50, lowest 39
+  # (struct nebol horší v žiadnej remíze); strict pravidlo nezachytilo ani jednu z 14 chýb invalid-sure a presunulo
+  # 28 správnych "neplatné" do fallbacku -> any_parsed; fallback B1 je dočasný (bez GPU), nahradí ho LLM.
+  symbolic:
+    tie_break: struct         # lowest | jaccard | struct | union (union iba ablácia)
+    invalid_rule: any_parsed  # any_parsed | strict
+    # Záloha pre stav undecided - zvolená IBA na dev pravidlom st2.fallback_selection nižšie.
+    # 2026-10-25 (pred behom B2/N1 v Colabe, bez pohľadu na test): poradie podľa priemerného CS na 9 dev množinách
+    # B1 28.23 > invalid 26.05 > valid 24.18; B2 a N1-abstract zatiaľ bez výsledkov -> dočasne B1.
+    # Po stiahnutí cache z Colabu sa pravidlo vyhodnotí znova (run_st2 vypíše vybranú zálohu); test sa spustí,
+    # až keď sú výsledky všetkých kandidátov a táto hodnota sedí s pravidlom (kontroluje to run_st2 --split test).
+    fallback: B1              # invalid | valid | B1 | B2 | N1-abstract | N1-original (N1-original iba ablácia)
+  # Pravidlo voľby zálohy (zapísané 2026-10-25, pred dev výsledkami B2/N1): najvyššie priemerné combined_score
+  # cez 9 dev množín (priemer variantov easy/mixed/hard, každý priemer 3 seedov); ak je rozdiel k najlepšiemu
+  # < tie_tolerance bodu, vyhrá kandidát skôr v zozname (jednoduchší). N1-original nie je kandidát (ablácia).
+  # Doplnené 2026-10-25 (pred dev výsledkami B2/N1): kandidát, ktorého záloha má aspoň jednu abstenciu (nejednoznačná
+  # odpoveď LLM ostáva null ako v ST1), nemá oficiálne metriky, a preto sa vylúči z poradia.
+  fallback_selection:
+    candidates: [invalid, valid, B1, B2, N1-abstract]
+    tie_tolerance: 0.5
+  # N1 pre ST2 (src/st2_llm.py, Colab): model sa načítava importovaným run_llama.LlamaRunner (ako N1 v ST1:
+  # NF4 4-bit + double quant, compute dtype bf16/fp16 podľa GPU) s rovnakou revíziou ako N1 v ST1
+  # (outputs/neural/llama/*/run.json), greedy, po jednom príklade.
+  n1:
+    model_id: meta-llama/Meta-Llama-3-8B-Instruct
+    revision: 8afb486c1db24fe5011ec46dfbe5b5dccdb575c2
+    max_new_tokens: 16        # "VALID i j" / "INVALID" (ST1 má 8, tu sú navyše dve čísla)
+    output: outputs/neural/st2_llama
+  # B2 pre ST2 (src/st2_encoder.py, Colab): model, seedy, epochy, lr, batch, akumulácia a max_length sa NEZADÁVAJÚ
+  # tu - berú sa z predvolených hodnôt src/finetune_encoder.py (B2 v ST1), aby boli vždy rovnaké. Tu je iba to,
+  # čo je špecifické pre ST2, a revízia z B2 v ST1 (outputs/neural/b2/seed_*/training.json).
+  b2:
+    revision: 8ccc9b6f36199bec6961081d44eb72fb3f7353f3
+    train_variants: [easy, mixed, hard]   # syntetické ST2 z ST1 train (rušivé premisy tiež z train)
+    train_seed: 0
+    neg_per_example: 4        # negatívne dvojice na príklad (podvzorkovanie; triedy vyvážené váhou v strate)
+    select_set: dev_mixed_s42 # výber epochy podľa (ACC + F1)/2 na tejto dev množine, pri zhode skoršia (ako ST1)
+    threshold: 0.5            # platné <=> max pravdepodobnosť dvojice > prah (pevný, neladený)
+    output: outputs/neural/st2_b2
+  # Test ST2 sa vyhodnocuje raz (python -m src.run_st2 --split test --final); log bráni opakovaniu.
+  test_log: outputs/st2_test_run_log.json
